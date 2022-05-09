@@ -10,16 +10,62 @@ const Work = () => {
 					</p>
 					<p className="py-6">Here is some of my recent work</p>
 				</div>
-
-				<div
-					//style={{ backgroundImage: `url(${})` }}
-					className="grid sm:grid-cols-2 md:grid-cols-3 gap-4"
-				>
-					<div className="shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div">
+				{/*CONTAINER */}
+				<div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+					{/*GRID ITEM */}
+					<div //style={{ backgroundImage: `url(${})` }}
+						className="shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div"
+					>
 						{/*HOVER EFFECTS */}
 						<div className="opacity-0 group-hover:opacity-100">
-							<span className="text-2xl font-bold text-white tracking-wider">
-								React JS Application
+							<span className="text-2xl font-bold text-white tracking-wider justify-center">
+								HTML, JS, and Tailwind Website
+							</span>
+							<div className="pt-8 text-center">
+								<a href="/">
+									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+										Demo
+									</button>
+								</a>
+								<a href="/">
+									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+										Code
+									</button>
+								</a>
+							</div>
+						</div>
+					</div>
+					{/*GRID ITEM */}
+					<div //style={{ backgroundImage: `url(${})` }}
+						className="shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div"
+					>
+						{/*HOVER EFFECTS */}
+						<div className="opacity-0 group-hover:opacity-100">
+							<span className="text-2xl font-bold text-white tracking-wider justify-center">
+								React and Tailwind Application
+							</span>
+							<div className="pt-8 text-center">
+								<a href="/">
+									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+										Demo
+									</button>
+								</a>
+								<a href="/">
+									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+										Code
+									</button>
+								</a>
+							</div>
+						</div>
+					</div>
+					{/*GRID ITEM */}
+					<div //style={{ backgroundImage: `url(${})` }}
+						className="shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div"
+					>
+						{/*HOVER EFFECTS */}
+						<div className="opacity-0 group-hover:opacity-100">
+							<span className="text-2xl font-bold text-white tracking-wider justify-center">
+								React, Tailwind, and Hydrogen headless shopify store
 							</span>
 							<div className="pt-8 text-center">
 								<a href="/">

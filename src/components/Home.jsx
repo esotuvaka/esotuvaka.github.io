@@ -12,9 +12,9 @@ const Home = () => {
 					I'm a Frontend Developer
 				</h2>
 				<p className="text-[#8892b0] max-w-[700]">
-					I specialize in building unique and aesthetic websites / digital
-					experiences. My current focus is on building responsive, static and
-					dynamic websites and applications using React.
+					I specialize in building unique and aesthetic digital experiences. My
+					current focus is on building responsive, static and dynamic websites
+					and applications using React.
 				</p>
 				<div>
 					<button className="text-white border-2 px-6 py-3 my-4 flex items-center hover:bg-red-500 hover:border-red-500 duration-500">

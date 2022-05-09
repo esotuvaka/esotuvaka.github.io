@@ -57,7 +57,7 @@ const Navbar = () => {
 			{/*SOCIAL MEDIA ICONS */}
 			<div className="hidden lg:flex fixed flex-col top-[35%] left-0">
 				<ul>
-					<li className=" w-[170px] h-[60px] px-4 flex justify-between items-center ml-[-110px] hover:ml-[10px] duration-500 bg-blue-500">
+					<li className=" w-[170px] h-[60px] px-4 flex justify-between items-center ml-[-110px] hover:ml-[0px] duration-500 bg-blue-500">
 						<a
 							className="flex justify-between items-center w-full text-gray-300  "
 							href="/"
@@ -66,7 +66,7 @@ const Navbar = () => {
 							<FaLinkedin size={30} />
 						</a>
 					</li>
-					<li className=" w-[170px] h-[60px] px-4 flex justify-between items-center ml-[-110px] hover:ml-[10px] duration-500 bg-[#333]">
+					<li className=" w-[170px] h-[60px] px-4 flex justify-between items-center ml-[-110px] hover:ml-[0px] duration-500 bg-[#333]">
 						<a
 							className="flex justify-between items-center w-full text-gray-300  "
 							href="/"
@@ -75,7 +75,7 @@ const Navbar = () => {
 							<FaGithub size={30} />
 						</a>
 					</li>
-					<li className=" w-[170px] h-[60px] px-4 flex justify-between items-center ml-[-110px] hover:ml-[10px] duration-500 bg-[#2c9780]">
+					<li className=" w-[170px] h-[60px] px-4 flex justify-between items-center ml-[-110px] hover:ml-[0px] duration-500 bg-[#2c9780]">
 						<a
 							className="flex justify-between items-center w-full text-gray-300  "
 							href="/"
@@ -84,7 +84,7 @@ const Navbar = () => {
 							<HiOutlineMail size={30} />
 						</a>
 					</li>
-					<li className=" w-[170px] h-[60px] px-4 flex justify-between items-center ml-[-110px] hover:ml-[10px] duration-500 bg-[#565f69]">
+					<li className=" w-[170px] h-[60px] px-4 flex justify-between items-center ml-[-110px] hover:ml-[0px] duration-500 bg-[#565f69]">
 						<a
 							className="flex justify-between items-center w-full text-gray-300  "
 							href="/"
