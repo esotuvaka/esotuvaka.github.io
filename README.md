@@ -1,6 +1,6 @@
  ## Work In Progress!
  
- # Clean portfolio built using React and Tailwind
+ # Commit log
 
 5/11/2022:
 * Adding "projects" thumbnails, and researching best hosting options for each project
