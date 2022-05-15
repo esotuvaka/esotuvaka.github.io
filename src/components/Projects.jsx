@@ -23,14 +23,14 @@ const Work = () => {
 						className="shadow-lg group container rounded-md flex text-center justify-center items-center mx-auto content-div"
 					>
 						{/*HOVER EFFECTS */}
-						<div className="opacity-0 w-full group-hover:opacity-100 group-hover:shadow-xl duration-500 group-hover:bg-stone-100 h-full rounded-md">
+						<div className="opacity-0 w-full group-hover:opacity-100 group-hover:shadow-xl duration-500 group-hover:bg-stone-100 h-full z-0 hover:z-10 rounded-md">
 							<span className="text-2xl text-center w-4/5 mx-auto font-bold mt-9 text-teal-800 tracking-wider justify-center flex">
 								React, Tailwind, Hydrogen headless store
 							</span>
-							<div className="pt-8 text-center">
+							<div className="pt-8 text-center flex justify-center items-center">
 								<a href="/">
-									<button className="text-center rounded-sm px-4 py-3 m-2 border-2 border-ash text-ash font-bold text-lg hover:bg-teal-900 hover:border-teal-900 hover:text-white hover:-translate-y-1 hover:shadow-2xl duration-500">
-										Not Live Yet !
+									<button className="  text-center rounded-sm px-4 py-3 m-2 border-2 border-ash text-ash font-bold text-lg hover:bg-teal-900 hover:border-teal-900 hover:text-white hover:-translate-y-1 hover:shadow-2xl duration-500">
+										Not Live*
 									</button>
 								</a>
 								<a
@@ -43,12 +43,21 @@ const Work = () => {
 									</button>
 								</a>
 							</div>
+							<div className="  w-full pb-8 mt-4 text-left rounded-sm bg-stone-100 shadow-lg">
+								<p className="w-4/5 mx-auto">
+									Shopify's Hydrogen framework is currently in developer preview
+									and not built for production. Hydrogen is also directly built
+									for Shopify's upcoming Oxygen servers which are not yet live,
+									so this site can't be easily hosted. Instead, please watch
+									this video demonstration{' '}
+								</p>
+							</div>
 						</div>
 					</div>
 					{/*GRID ITEM */}
 					<div
 						style={{ backgroundImage: `url(${LoremPartners})` }}
-						className="shadow-lg   group container rounded-md flex text-center justify-center items-center mx-auto content-div w-full "
+						className="shadow-lg group container rounded-md flex text-center justify-center items-center mx-auto content-div w-full "
 					>
 						{/*HOVER EFFECTS */}
 						<div className="opacity-0 w-full group-hover:opacity-100 group-hover:shadow-xl duration-500 group-hover:bg-stone-100 h-full rounded-md">

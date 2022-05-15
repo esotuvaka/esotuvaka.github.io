@@ -15,9 +15,6 @@ const Contact = () => {
 					<p className="text-4xl font-bold inline border-b-4 border-teal-900 text-teal-800">
 						Contact
 					</p>
-					<p className="text-ash py-4">
-						Submit the form below or send an email - eric.otuvaka@gmail.com
-					</p>
 				</div>
 				<input
 					className="bg-neutral-300 rounded-lg p-2"
