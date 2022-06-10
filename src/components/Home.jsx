@@ -7,7 +7,7 @@ const Home = () => {
 			<div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full bg-neutral-100">
 				<p className="text-ash mb-4">- Hello -</p>
 				<h1 className="text-teal-800 font-[Poppins] text-5xl  sm:text-8xl  font-semibold">
-					I am Eric Otuvaka yo
+					I am Eric Otuvaka TESTING
 				</h1>
 				<p className="text-ash max-w-[700] mt-4">
 					I specialize in building unique and aesthetic digital experiences. My
