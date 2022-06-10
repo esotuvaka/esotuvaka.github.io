@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.312201df.css",
+    "main.js": "/static/js/main.6e52b374.js",
+    "static/media/lorem-partners-thumbnail.png": "/static/media/lorem-partners-thumbnail.6d9779b0208759f53781.png",
+    "static/media/shoestop-thumbnail.png": "/static/media/shoestop-thumbnail.0a3ce1a4d5f8d4f60509.png",
+    "static/media/Esotuvaka-Logo.png": "/static/media/Esotuvaka-Logo.b332ba31049b717480ff.png",
+    "index.html": "/index.html",
+    "main.312201df.css.map": "/static/css/main.312201df.css.map",
+    "main.6e52b374.js.map": "/static/js/main.6e52b374.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.312201df.css",
+    "static/js/main.6e52b374.js"
+  ]
+}
