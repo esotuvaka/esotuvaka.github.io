@@ -20,11 +20,11 @@ const About = () => {
 					</div>
 					<div>
 						<p>
-							I am a self-taught frontend developer currently located in Irvine,
-							CA. I specialize in building websites for individuals and
-							small-businesses.<br></br> I have a hunger for knowledge, and I
-							love to be constantly learning, improving, and working with
-							cutting edge technologies.
+							I am a self-taught frontend developer in Irvine, CA and specialize
+							in building websites for individuals and small-businesses.
+							<br></br> I have a hunger for knowledge, and I love to be
+							constantly learning, improving, and working with cutting edge
+							technologies.
 						</p>
 					</div>
 				</div>

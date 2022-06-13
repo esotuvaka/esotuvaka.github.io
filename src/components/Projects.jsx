@@ -2,6 +2,7 @@ import React from 'react';
 import LoremPartners from '../assets/lorem-partners-thumbnail.png';
 import ShoeStop from '../assets/shoestop-thumbnail.png';
 import ProjectItem from './ProjectItem';
+import TamarT from '../assets/TamarT.png';
 
 const Work = () => {
 	return (
@@ -24,16 +25,23 @@ const Work = () => {
 						disclaimer="*Please allow a few seconds to load on StackBlitz as Hydrogen is in developer preview, and requires hosting on Shopify Oxygen servers, which have a TBD release date. StackBlitz is a temporary workaround!"
 					/>
 					<ProjectItem
-						title="Aesthetic Real Estate Agent Site Concept"
+						title="Real Estate Team Concept Site"
 						backgroundImg={LoremPartners}
 						githubLink="https://github.com/esotuvaka/Lorem-Partners"
-						demoLink="/"
+						demoLink="https://esotuvaka.github.io/Lorem-Partners/"
 						description="Built with TailwindCSS, HTML5, and Data-AOS JavaScript animation
 							library. Heavy focus on Aesthetics and SEO, with fluid page-load
 							animations and the landing page scoring over 90% in each metric"
 						disclaimer=""
 					/>
-					<ProjectItem title="" backgroundImg="" githubLink="" />
+					<ProjectItem
+						title="Real Estate Agent Site"
+						backgroundImg={TamarT}
+						githubLink="https://github.com/esotuvaka/Real-Estate-Agent-NextJS"
+						demoLink="/"
+						description="Built using TailwindCSS and NextJS. I kept a simple design and really prioritized the site's SEO (100% on Lighthouse!)"
+						disclaimer=""
+					/>
 				</div>
 			</div>
 		</div>
