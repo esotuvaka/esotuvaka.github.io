@@ -10,7 +10,7 @@ const Navbar = () => {
 
 	return (
 		<>
-			<div className="fixed w-full text-2xl flex justify-between items-center px-12 lg:px-[15%] py-6 bg-white text-neutral-700 shadow-sm ">
+			<div className="fixed w-full text-2xl flex justify-between items-center px-12 lg:px-[15%] py-3 md:py-6 bg-white text-neutral-700 shadow-sm ">
 				<div>
 					<Link to="home" smooth={true} duration={500}>
 						<img
@@ -48,7 +48,7 @@ const Navbar = () => {
 				{/*HAMBURGER */}
 				<div
 					onClick={handleClick}
-					className="md:hidden z-30 hover:cursor-pointer"
+					className="md:hidden items-center flex z-30 hover:cursor-pointer"
 				>
 					{!nav ? <FaBars /> : <FaTimes />}
 				</div>

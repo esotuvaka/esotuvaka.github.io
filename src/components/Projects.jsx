@@ -9,21 +9,21 @@ const Work = () => {
 	return (
 		<>
 			<div
-				className="w-full h-screen absolute bg-cover bg-no-repeat -z-10"
+				name="projects"
+				className="w-full h-screen absolute bg-cover bg-no-repeat  -z-10"
 				style={{ backgroundImage: `url(${bg})` }}
 			></div>
-			<div
-				name="projects"
-				className=" lg:max-w-[1090px] 2xl:max-w-[1750px] mx-auto"
-			>
-				<div className="max-w-[1500px] mx-auto p-4  flex flex-col h-screen justify-center w-full ">
-					<p className="text-4xl font-bold inline mt-36 text-teal-800  ">
-						Projects
-					</p>
+			<div className=" lg:max-w-[1090px]   lg:pt-0 2xl:max-w-[1750px] mx-auto">
+				<div className="max-w-[1500px] mx-auto flex flex-col items-center p-4 h-screen   w-full ">
+					<div className="grid grid-cols-2">
+						<p className="text-4xl border-teal-800  gap-8 font-bold border-b-4 md:mt-36 text-teal-800  ">
+							Projects
+						</p>
+					</div>
 
 					{/*CONTAINER */}
 					{/* grid sm:grid-cols-2  gap-4 */}
-					<div id="p-container" className="grid md:grid-cols-2 gap-4  ">
+					<div id="p-container" className="grid md:grid-cols-2 md:gap-4  ">
 						<ProjectItem
 							title="Shopify Hydrogen Storefront"
 							backgroundImg={ShoeStop}
