@@ -10,7 +10,7 @@ const Navbar = () => {
 
 	return (
 		<>
-			<div className="fixed w-full text-2xl flex justify-between items-center px-12 lg:px-[15%] py-6 bg-neutral-100 text-neutral-700 shadow-sm font-[Poppins]">
+			<div className="fixed w-full text-2xl flex justify-between items-center px-12 lg:px-[15%] py-6 bg-white text-neutral-700 shadow-sm ">
 				<div>
 					<Link to="home" smooth={true} duration={500}>
 						<img
@@ -23,17 +23,17 @@ const Navbar = () => {
 				</div>
 
 				<ul className="hidden md:flex gap-8">
-					<li className="hover:cursor-pointer text-ash">
+					<li className="hover:cursor-pointer border border-transparent hover:border-b-black text-neutral-500 hover:text-black transition-all duration-300">
 						<Link to="home" smooth={true} duration={500}>
 							Home
 						</Link>
 					</li>
-					<li className="hover:cursor-pointer text-ash">
+					<li className="hover:cursor-pointer border border-transparent hover:border-b-black text-neutral-500 hover:text-black transition-all duration-300">
 						<Link to="projects" smooth={true} duration={500}>
 							Projects
 						</Link>
 					</li>
-					<li className="hover:cursor-pointer text-ash">
+					<li className="hover:cursor-pointer border border-transparent hover:border-b-black text-neutral-500 hover:text-black transition-all duration-300">
 						<Link to="about" smooth={true} duration={500}>
 							About
 						</Link>
@@ -70,7 +70,6 @@ const Navbar = () => {
 						<Link
 							onClick={handleClick}
 							to="projects"
-							offset={-80}
 							smooth={true}
 							duration={500}
 						>
@@ -78,13 +77,7 @@ const Navbar = () => {
 						</Link>
 					</li>
 					<li className="py-6 text-4xl cursor-pointer">
-						<Link
-							onClick={handleClick}
-							to="about"
-							offset={-45}
-							smooth={true}
-							duration={500}
-						>
+						<Link onClick={handleClick} to="about" smooth={true} duration={500}>
 							About
 						</Link>
 					</li>
@@ -93,7 +86,6 @@ const Navbar = () => {
 						<Link
 							onClick={handleClick}
 							to="contact"
-							offset={-100}
 							smooth={true}
 							duration={500}
 						>
@@ -130,7 +122,6 @@ const Navbar = () => {
 						<li>
 							<Link
 								to="contact"
-								offset={-100}
 								smooth={true}
 								duration={500}
 								className="cursor-pointer w-[170px] px-4 h-[60px] flex justify-between items-center ml-[-110px] hover:ml-[0px] duration-500 bg-[#2c9780] text-gray-300"

@@ -3,9 +3,11 @@
 @tailwind utilities;
 @tailwind variants;
 
-.content-div {
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	height: 250px;
+body {
+	margin: 0;
+}
+
+svg {
+	display: inline-block;
+	height: 100%;
 }
