@@ -15,8 +15,8 @@ const Work = () => {
 			></div>
 			<div className=" lg:max-w-[1090px]   lg:pt-0 2xl:max-w-[1750px] mx-auto">
 				<div className="max-w-[1500px] mx-auto flex flex-col items-center p-4 h-screen   w-full ">
-					<div className="grid grid-cols-2">
-						<p className="text-4xl border-teal-800  gap-8 font-bold border-b-4 md:mt-36 text-teal-800  ">
+					<div className="grid grid-cols-2 gap-4">
+						<p className="text-4xl border-teal-800  font-bold border-b-4 md:mt-36 text-teal-800  ">
 							Projects
 						</p>
 					</div>
