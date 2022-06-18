@@ -18,14 +18,20 @@ const ProjectItem = ({
 					<div>
 						{/*HOVER EFFECTS */}
 						<div className="w-full grid grid-cols-4 md:grid-cols-4  duration-500  h-full rounded-md">
-							<img
-								alt=""
-								src={backgroundImg}
-								width="1000px"
-								height={250}
+							<a
+								href={demoLink}
+								target="_blank"
+								rel="noreferrer"
 								className="flex shadow-md col-span-3 md:col-span-3 hover:scale-[1.01] hover:shadow-xl duration-500 transition-all p-2 bg-white rounded-lg"
-							></img>
-
+							>
+								<img
+									alt=""
+									src={backgroundImg}
+									width="1000px"
+									height={250}
+									className=""
+								/>
+							</a>
 							<div className="flex flex-col bg-whitemd:flex-col mx-auto  md:col-span-1 items-center justify-center">
 								<a href={demoLink} target="_blank" rel="noreferrer">
 									<button className="w-24 md:w-20 lg:w-24 text-center rounded-sm px-4 md:px-0 block py-3 m-2 border-2 bg-white border-neutral-100 font-bold text-lg hover:bg-teal-900 hover:border-teal-900 hover:text-white hover:-translate-y-1 hover:shadow-2xl duration-500">
