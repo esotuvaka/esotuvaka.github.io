@@ -12,7 +12,7 @@ const About = () => {
 				<div className="flex flex-col justify-center items-center w-full h-full ">
 					<div>
 						<div className="max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8 bg-white rounded-t-xl py-4">
-							<div className="sm:text-right pl-4">
+							<div className="pl-4">
 								<p className="text-4xl text-left text-teal-800 font-bold inline-flex border-b-4 border-teal-800">
 									About
 								</p>

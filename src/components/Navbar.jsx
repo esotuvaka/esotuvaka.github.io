@@ -29,7 +29,7 @@ const Navbar = () => {
 						</Link>
 					</li>
 					<li className="hover:cursor-pointer border border-transparent hover:border-b-black text-neutral-500 hover:text-black transition-all duration-300">
-						<Link to="projects" smooth={true} duration={500}>
+						<Link to="projects" smooth={true} duration={500} offset={-80}>
 							Projects
 						</Link>
 					</li>

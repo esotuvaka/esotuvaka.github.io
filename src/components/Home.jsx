@@ -20,6 +20,7 @@ const Home = () => {
 								to="projects"
 								smooth={true}
 								duration={500}
+								offset={-80}
 								className="px-6 py-3"
 							>
 								View Projects
