@@ -11,8 +11,7 @@ const Home = () => {
 						I am Eric Otuvaka
 					</h1>
 					<p className="text-ash max-w-[700] mt-4">
-						I specialize in building unique and aesthetic digital experiences
-						<span className="font-bold text-teal-800">.</span>
+						I specialize in building unique and aesthetic digital experiences.
 					</p>
 					<div className="flex md:gap-4">
 						<button className="text-ash justify-center border-2 rounded-sm border-ash my-4 flex items-center hover:bg-teal-900 hover:border-teal-900 hover:text-white hover:-translate-y-1 hover:shadow-2xl duration-500">

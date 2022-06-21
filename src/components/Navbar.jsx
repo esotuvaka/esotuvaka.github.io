@@ -38,7 +38,7 @@ const Navbar = () => {
 							About
 						</Link>
 					</li>
-					<button className="hover:cursor-pointer text-white -mt-1 bg-teal-800 px-3 py-1 rounded-md font-semibold">
+					<button className="hover:cursor-pointer text-white -mt-1 bg-teal-800 hover:bg-teal-900 hover:transition-all duration-500 px-3 py-1 rounded-md font-semibold">
 						<Link to="contact" smooth={true} duration={500} width={121}>
 							Contact
 						</Link>
@@ -50,7 +50,7 @@ const Navbar = () => {
 					onClick={handleClick}
 					className="md:hidden items-center flex z-30 hover:cursor-pointer"
 				>
-					{!nav ? <FaBars /> : <FaTimes />}
+					{!nav ? <FaBars /> : <FaTimes className="text-white" />}
 				</div>
 
 				{/* MOBILE MENU */}
