@@ -10,7 +10,7 @@ const Navbar = () => {
 
 	return (
 		<>
-			<div className="fixed w-full text-2xl flex justify-between items-center px-12 lg:px-[15%] py-3 md:py-6 bg-white text-neutral-700 shadow-sm ">
+			<div className="fixed z-20 flex w-full items-center justify-between bg-white px-12 py-3 shadow-md shadow-neutral-300 md:py-6 lg:px-[15%]">
 				<div>
 					<Link to="home" smooth={true} duration={500}>
 						<img
@@ -22,25 +22,25 @@ const Navbar = () => {
 					</Link>
 				</div>
 
-				<ul className="hidden md:flex gap-8">
-					<li className="hover:cursor-pointer border border-transparent hover:border-b-black text-neutral-500 hover:text-black transition-all duration-300">
+				<ul className="hidden gap-8 md:flex">
+					<li className="navBtn">
 						<Link to="home" smooth={true} duration={500}>
-							Home
+							<h2>Home</h2>
 						</Link>
 					</li>
-					<li className="hover:cursor-pointer border border-transparent hover:border-b-black text-neutral-500 hover:text-black transition-all duration-300">
+					<li className="navBtn">
 						<Link to="projects" smooth={true} duration={500} offset={-80}>
-							Projects
+							<h2>Projects</h2>
 						</Link>
 					</li>
-					<li className="hover:cursor-pointer border border-transparent hover:border-b-black text-neutral-500 hover:text-black transition-all duration-300">
-						<Link to="about" smooth={true} duration={500}>
-							About
+					<li className="navBtn">
+						<Link to="about" smooth={true} duration={500} offset={-80}>
+							<h2>About</h2>
 						</Link>
 					</li>
-					<button className="hover:cursor-pointer text-white -mt-1 bg-teal-800 hover:bg-teal-900 hover:transition-all duration-500 px-3 py-1 rounded-md font-semibold">
+					<button className="-mt-0 rounded-sm  px-4 text-black shadow-md shadow-neutral-600 ring-2 ring-black transition-all duration-500 hover:bg-teal-800 hover:text-white hover:shadow-lg hover:shadow-neutral-600 hover:ring-teal-800">
 						<Link to="contact" smooth={true} duration={500} width={121}>
-							Contact
+							<h2>Contact</h2>
 						</Link>
 					</button>
 				</ul>
@@ -48,7 +48,7 @@ const Navbar = () => {
 				{/*HAMBURGER */}
 				<div
 					onClick={handleClick}
-					className="md:hidden items-center flex z-30 hover:cursor-pointer"
+					className="z-30 flex items-center hover:cursor-pointer md:hidden"
 				>
 					{!nav ? <FaBars /> : <FaTimes className="text-white" />}
 				</div>
@@ -58,15 +58,15 @@ const Navbar = () => {
 					className={
 						!nav
 							? 'hidden'
-							: ' absolute top-0 left-0 w-full h-screen bg-teal-900 flex flex-col justify-center items-center text-white z-20'
+							: ' absolute top-0 left-0 z-20 flex h-screen w-full flex-col items-center justify-center bg-teal-900 text-white'
 					}
 				>
-					<li className="py-6 text-4xl cursor-pointer">
+					<li className="cursor-pointer py-6 text-4xl">
 						<Link onClick={handleClick} to="home" smooth={true} duration={500}>
 							Home
 						</Link>
 					</li>
-					<li className="py-6 text-4xl cursor-pointer">
+					<li className="cursor-pointer py-6 text-4xl">
 						<Link
 							onClick={handleClick}
 							to="projects"
@@ -76,13 +76,13 @@ const Navbar = () => {
 							Projects
 						</Link>
 					</li>
-					<li className="py-6 text-4xl cursor-pointer">
+					<li className="cursor-pointer py-6 text-4xl">
 						<Link onClick={handleClick} to="about" smooth={true} duration={500}>
 							About
 						</Link>
 					</li>
 
-					<li className="py-6 text-4xl cursor-pointer">
+					<li className="cursor-pointer py-6 text-4xl">
 						<Link
 							onClick={handleClick}
 							to="contact"
@@ -95,11 +95,11 @@ const Navbar = () => {
 				</ul>
 
 				{/*SOCIAL MEDIA ICONS */}
-				<div className="hidden lg:flex fixed flex-col top-[35%] left-0">
+				<div className="fixed top-[35%] left-0 hidden flex-col lg:flex">
 					<ul>
-						<li className="w-[170px] h-[60px]   px-4 flex justify-between items-center ml-[-110px] hover:ml-[0px] duration-500 bg-blue-500">
+						<li className="ml-[-110px] flex   h-[60px] w-[170px] items-center justify-between bg-blue-500 px-4 duration-500 hover:ml-[0px]">
 							<a
-								className="w-[170px] h-[60px] flex justify-between items-center  text-gray-300  "
+								className="flex h-[60px] w-[170px] items-center justify-between  text-gray-300  "
 								href="https://linkedin.com/in/eric-otuvaka"
 								target="_blank"
 								rel="noreferrer"
@@ -108,9 +108,9 @@ const Navbar = () => {
 								<FaLinkedin size={30} />
 							</a>
 						</li>
-						<li className=" w-[170px] h-[60px] px-4 flex justify-between items-center ml-[-110px] hover:ml-[0px] duration-500 bg-[#333]">
+						<li className=" ml-[-110px] flex h-[60px] w-[170px] items-center justify-between bg-[#333] px-4 duration-500 hover:ml-[0px]">
 							<a
-								className="w-[170px] h-[60px] flex justify-between items-center   text-gray-300  "
+								className="flex h-[60px] w-[170px] items-center justify-between   text-gray-300  "
 								href="https://github.com/esotuvaka"
 								target="_blank"
 								rel="noreferrer"
@@ -124,7 +124,7 @@ const Navbar = () => {
 								to="contact"
 								smooth={true}
 								duration={500}
-								className="cursor-pointer w-[170px] px-4 h-[60px] flex justify-between items-center ml-[-110px] hover:ml-[0px] duration-500 bg-[#2c9780] text-gray-300"
+								className="ml-[-110px] flex h-[60px] w-[170px] cursor-pointer items-center justify-between bg-[#2c9780] px-4 text-gray-300 duration-500 hover:ml-[0px]"
 							>
 								Email
 								<HiOutlineMail size={30} />

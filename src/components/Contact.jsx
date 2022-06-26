@@ -1,53 +1,55 @@
 import React from 'react';
-import bg4 from '../assets/stacked-waves-haikei-4.svg';
 
 const Contact = () => {
 	return (
 		<>
 			<div
-				className="w-full h-screen absolute bg-cover bg-no-repeat -z-10"
-				style={{ backgroundImage: `url(${bg4})` }}
-			></div>
-			<div
-				id="contact"
+				className="mx-auto flex h-screen w-full max-w-[1200px] flex-col items-center justify-center p-4"
 				name="contact"
-				className="contact spacer w-full h-screen flex justify-center items-center p-4  "
 			>
-				<form
-					method="POST"
-					action="https://getform.io/f/59170bd6-bf32-4da3-a9c7-13ce88bc64a7"
-					className="flex flex-col max-w-[600px] w-full mt-12"
-				>
-					<div className="pb-8">
-						<p className="text-4xl font-bold inline border-b-4 border-teal-900 text-teal-800">
-							Contact
-						</p>
-						<p className="text-black py-4">
-							Submit the form below or send an email - eric.otuvaka@gmail.com
-						</p>
+				<div className="grid w-full max-w-[1200px] grid-cols-2 gap-8 rounded-t-xl py-4">
+					<div className="">
+						<h1 className="inline-flex text-left text-5xl text-teal-800 sm:text-7xl">
+							- Contact -
+						</h1>
 					</div>
-					<input
-						className="bg-white border-black border-2 rounded-lg p-2"
-						type="text"
-						placeholder="Name"
-						name="name"
-					/>
-					<input
-						className="my-4 p-2 bg-white border-black border-2 rounded-lg"
-						type="email"
-						placeholder="Email"
-						name="email"
-					/>
-					<textarea
-						className="bg-white border-black border-2 p-2 rounded-lg"
-						name="message"
-						rows="4"
-						placeholder="Message"
-					></textarea>
-					<button className="text-black border-2 bg-white  rounded-sm duration-500 hover:-translate-y-1 hover:shadow-2xl border-neutral-100 hover:bg-teal-900 hover:text-white hover:border-teal-900 px-4 py-3 my-8 mx-auto flex items-center">
-						Send
-					</button>
-				</form>
+					<div></div>
+				</div>
+				<div className="grid grid-cols-1">
+					<form
+						method="POST"
+						action="https://getform.io/f/59170bd6-bf32-4da3-a9c7-13ce88bc64a7"
+						className="flex w-full max-w-[600px] flex-col"
+					>
+						<div className="pb-8">
+							<p className="py-4 text-3xl text-black">
+								Submit the form below or send an email to:
+								eric.otuvaka@gmail.com
+							</p>
+						</div>
+						<input
+							className="rounded-md border-2 border-black bg-white p-2"
+							type="text"
+							placeholder="Name"
+							name="name"
+						/>
+						<input
+							className="my-4 rounded-md border-2 border-black bg-white p-2"
+							type="email"
+							placeholder="Email"
+							name="email"
+						/>
+						<textarea
+							className="rounded-md border-2 border-black bg-white p-2"
+							name="message"
+							rows="4"
+							placeholder="Message"
+						></textarea>
+						<button className="mx-auto mt-4 rounded-sm bg-white py-2 px-6 text-center  font-semibold text-black shadow-md shadow-neutral-600 ring-2 ring-black transition-all duration-500 hover:-translate-y-1 hover:bg-teal-800 hover:text-white hover:shadow-lg hover:shadow-neutral-600 hover:ring-teal-800">
+							<h2>Send</h2>
+						</button>
+					</form>
+				</div>
 			</div>
 		</>
 	);

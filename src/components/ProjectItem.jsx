@@ -5,45 +5,49 @@ const ProjectItem = ({
 	backgroundImg,
 	githubLink,
 	demoLink,
+	tech,
 	description,
-	disclaimer,
 }) => {
 	return (
-		<div id="project-container" className="pt-4">
-			<div className="max-w-[1200px] mx-auto text-black">
-				<h2 className="text-left max-w-[1200px] mx-auto md:mb-4 font-semibold md:text-3xl">
-					{title}
-				</h2>
-				<div className="max-w-[1200px] mx-auto">
-					<div>
+		<div id="project-container" className="h-[70vh] pt-4">
+			<div className="mx-auto max-w-[1200px] text-black">
+				<div className="mx-auto max-w-[1200px]">
+					<div className=" grid h-full w-full grid-cols-3 flex-row  rounded-md  duration-500 md:grid-cols-5">
 						{/*HOVER EFFECTS */}
-						<div className="w-full grid grid-cols-4 md:grid-cols-4  duration-500  h-full rounded-md">
+
+						<div className="mx-auto flex flex-col  bg-white  md:col-span-2 ">
+							<h2 className="max-w-[1200px] text-left font-semibold md:mb-4 md:text-5xl">
+								{title}
+							</h2>
+							<h3
+								id="technologies"
+								className="mb-4 font-semibold italic text-teal-800"
+							>
+								{tech}
+							</h3>
+							<p className="mb-5 max-w-[450px]">{description}</p>
+							<div className="mx-auto flex flex-row">
+								<a href={demoLink} target="_blank" rel="noreferrer">
+									<button className="mr-4 rounded-sm py-2 px-6 font-semibold  text-black shadow-md shadow-neutral-600 ring-2 ring-black transition-all duration-500 hover:-translate-y-1 hover:bg-teal-800 hover:text-white hover:shadow-lg hover:shadow-neutral-600 hover:ring-teal-800">
+										<h2>Demo</h2>
+									</button>
+								</a>
+								<a href={githubLink} target="_blank" rel="noreferrer">
+									<button className="rounded-sm py-2 px-6 font-semibold  text-black shadow-md shadow-neutral-600 ring-2 ring-black transition-all duration-500 hover:-translate-y-1 hover:bg-teal-800 hover:text-white hover:shadow-lg hover:shadow-neutral-600 hover:ring-teal-800">
+										<h2>Code</h2>
+									</button>
+								</a>
+							</div>
+						</div>
+						<div className="col-span-3 pt-2">
 							<a
 								href={demoLink}
 								target="_blank"
 								rel="noreferrer"
-								className="flex shadow-md col-span-3 md:col-span-3 hover:scale-[1.01] hover:shadow-xl duration-500 transition-all p-2 bg-white rounded-lg"
+								className="flex rounded-lg bg-white p-2 shadow-md shadow-neutral-600 transition-all duration-500 hover:scale-[1.01] hover:shadow-lg hover:shadow-neutral-600"
 							>
-								<img
-									alt=""
-									src={backgroundImg}
-									width="1000px"
-									height={250}
-									className=""
-								/>
+								<img alt="" src={backgroundImg} height={250} className=" " />
 							</a>
-							<div className="flex flex-col bg-whitemd:flex-col mx-auto  md:col-span-1 items-center justify-center">
-								<a href={demoLink} target="_blank" rel="noreferrer">
-									<button className="w-24 md:w-20 lg:w-24 text-center rounded-sm px-4 md:px-0 block py-3 m-2 border-2 bg-white border-neutral-100 font-bold text-lg hover:bg-teal-900 hover:border-teal-900 hover:text-white hover:-translate-y-1 hover:shadow-2xl duration-500">
-										Demo
-									</button>
-								</a>
-								<a href={githubLink} target="_blank" rel="noreferrer">
-									<button className="w-24 md:w-20 lg:w-24 text-center rounded-sm px-4 md:px-0 block py-3 m-2 border-2 bg-white border-neutral-100 font-bold text-lg hover:bg-teal-900 hover:border-teal-900 hover:text-white hover:-translate-y-1 hover:shadow-2xl duration-500">
-										Code
-									</button>
-								</a>
-							</div>
 						</div>
 					</div>
 				</div>
