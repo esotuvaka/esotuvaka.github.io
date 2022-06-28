@@ -51,7 +51,7 @@ const Home = () => {
 				<div className="  mx-auto flex h-full max-w-xs flex-col justify-center sm:max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-[1520px]">
 					<div
 						ref={(el) => (heroDev = el)}
-						className="z-10 flex rotate-0 text-lg font-semibold text-black sm:text-4xl"
+						className="z-10 flex rotate-0 text-lg font-semibold text-black sm:text-4xl xl:max-w-[450px]"
 					>
 						- Frontend Developer -
 					</div>
@@ -103,7 +103,7 @@ const Home = () => {
 						<div
 							id="circle3"
 							ref={(el) => (heroCircle3 = el)}
-							className="floating3 2xl-[-70vh] flex items-center justify-center overflow-hidden rounded-full border-neutral-200 sm:absolute sm:-left-24 sm:top-[-70vh] sm:h-[40rem] sm:w-[40rem] sm:border xl:top-[-80vh] "
+							className="floating3 2xl-[-70vh] flex items-center justify-center overflow-hidden rounded-full border-neutral-200 sm:absolute sm:-left-24 sm:top-[-70vh] sm:h-[40rem] sm:w-[40rem] sm:border xl:top-[-80vh] xl:-left-0"
 						>
 							<Link
 								to="contact"
