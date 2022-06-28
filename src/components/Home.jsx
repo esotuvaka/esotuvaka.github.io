@@ -57,7 +57,7 @@ const Home = () => {
 					</div>
 					<h1
 						ref={(el) => (heroName = el)}
-						className="z-10 flex text-6xl text-teal-800 sm:text-[7rem] xl:text-[9rem]"
+						className="z-10 flex text-6xl text-teal-800 sm:text-[7rem] xl:max-w-[850px] xl:text-[9rem]"
 					>
 						Eric Otuvaka
 					</h1>
@@ -103,7 +103,7 @@ const Home = () => {
 						<div
 							id="circle3"
 							ref={(el) => (heroCircle3 = el)}
-							className="floating3 2xl-[-70vh] flex items-center justify-center overflow-hidden rounded-full border-neutral-200 sm:absolute sm:-left-24 sm:top-[-70vh] sm:h-[40rem] sm:w-[40rem] sm:border xl:top-[-80vh] xl:-left-0"
+							className="floating3 2xl-[-70vh] flex items-center justify-center overflow-hidden rounded-full border-neutral-200 sm:absolute sm:-left-24 sm:top-[-70vh] sm:h-[40rem] sm:w-[40rem] sm:border xl:top-[-60vh] xl:-left-0"
 						>
 							<Link
 								to="contact"
