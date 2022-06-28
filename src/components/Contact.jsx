@@ -1,15 +1,52 @@
-import React from 'react';
+import React, { useRef, useEffect } from 'react';
+import { gsap, Power4 } from 'gsap';
 
 const Contact = () => {
+	let contactSectionTitle = useRef();
+	let contactForm = useRef();
+
+	useEffect(() => {
+		gsap.fromTo(
+			contactSectionTitle,
+			{ clipPath: 'polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%)', y: 50 },
+			{
+				scrollTrigger: {
+					trigger: contactSectionTitle,
+				},
+				clipPath: 'polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)',
+				ease: Power4.easeOut,
+				delay: 0.5,
+				y: 0,
+				duration: 1,
+			}
+		);
+		gsap.fromTo(
+			contactForm,
+			{ clipPath: 'polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)' },
+			{
+				scrollTrigger: {
+					trigger: contactSectionTitle,
+				},
+				clipPath: 'polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)',
+				ease: Power4.easeOut,
+				delay: 1,
+				duration: 1,
+			}
+		);
+	}, []);
+
 	return (
 		<>
 			<div
-				className="mx-auto flex h-screen w-full max-w-[1200px] flex-col items-center justify-center p-4"
+				className="mx-auto flex h-screen w-full max-w-xs flex-col items-center justify-center px-2 sm:max-w-xl sm:px-0 md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-[1520px]"
 				name="contact"
 			>
-				<div className="grid w-full max-w-[1200px] grid-cols-2 gap-8 rounded-t-xl py-4">
-					<div className="">
-						<h1 className="inline-flex text-left text-5xl text-teal-800 sm:text-7xl">
+				<div
+					ref={(el) => (contactSectionTitle = el)}
+					className="grid w-full max-w-[1200px] grid-cols-1 rounded-t-xl py-4 lg:grid-cols-2 lg:gap-8 2xl:max-w-[1520px]"
+				>
+					<div className="flex justify-center sm:justify-start">
+						<h1 className="mx-auto inline-flex text-left text-5xl text-teal-800 sm:text-7xl md:mx-0 2xl:text-9xl">
 							- Contact -
 						</h1>
 					</div>
@@ -17,16 +54,15 @@ const Contact = () => {
 				</div>
 				<div className="grid grid-cols-1">
 					<form
+						ref={(el) => (contactForm = el)}
 						method="POST"
 						action="https://getform.io/f/59170bd6-bf32-4da3-a9c7-13ce88bc64a7"
-						className="flex w-full max-w-[600px] flex-col"
+						className="flex w-full max-w-[600px] flex-col pb-2"
 					>
-						<div className="pb-8">
-							<p className="py-4 text-3xl text-black">
-								Submit the form below or send an email to:
-								eric.otuvaka@gmail.com
-							</p>
-						</div>
+						<p className="mb-4 text-2xl font-semibold text-black sm:py-4 sm:text-3xl">
+							Submit the form below or send an email to: eric.otuvaka@gmail.com
+						</p>
+
 						<input
 							className="rounded-md border-2 border-black bg-white p-2"
 							type="text"
