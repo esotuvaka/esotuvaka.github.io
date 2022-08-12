@@ -51,7 +51,7 @@ const Work = () => {
 								backgroundImg={TT}
 								githubLink="https://github.com/esotuvaka/Agent-Site"
 								demoLink="https://agent-site.vercel.app/"
-								description="A redesign of a previous lead generation site. I started from scratch so I could integrate a Sanity CMS via an API and allow her and myself to perform CRUD operations, all while maintaining high Lighthouse scores!"
+								description="A full stack redesign of a previous lead generation site. I started from scratch so I could integrate a Sanity CMS via an API and allow her and myself to perform CRUD operations, all while maintaining high Lighthouse scores!"
 							/>
 							<ProjectItem
 								title="Shoestop"
