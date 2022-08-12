@@ -46,7 +46,7 @@ const Contact = () => {
 					className="grid w-full max-w-[1200px] grid-cols-1 rounded-t-xl py-4 lg:grid-cols-2 lg:gap-8 2xl:max-w-[1520px]"
 				>
 					<div className="flex justify-center sm:justify-start">
-						<h1 className="mx-auto inline-flex text-left text-5xl text-teal-800 sm:text-7xl md:mx-0 2xl:text-9xl">
+						<h1 className="mx-auto inline-flex text-left text-5xl text-teal-800 sm:text-7xl md:mx-0 2xl:text-8xl">
 							- Contact -
 						</h1>
 					</div>

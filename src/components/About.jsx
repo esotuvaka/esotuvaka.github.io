@@ -64,7 +64,7 @@ const About = () => {
 								className="grid w-full rounded-t-xl py-4 md:grid-cols-2 md:gap-8"
 							>
 								<div className="flex justify-center sm:justify-start">
-									<h1 className="mx-auto inline-flex text-left text-5xl text-teal-800 sm:text-7xl md:mx-0 2xl:text-9xl">
+									<h1 className="mx-auto inline-flex text-left text-5xl text-teal-800 sm:text-7xl md:mx-0 2xl:text-8xl">
 										- About -
 									</h1>
 								</div>
@@ -88,7 +88,7 @@ const About = () => {
 									ref={(el) => (aboutRight = el)}
 									className="col-span-3 font-medium "
 								>
-									<h3 className="relative mt-4 font-semibold italic text-teal-800  sm:mt-0 sm:text-3xl sm:not-italic sm:text-black md:mt-12 lg:text-5xl 2xl:mt-0">
+									<h3 className="relative mt-4 font-semibold italic text-teal-800  sm:mt-0 sm:text-3xl sm:text-black md:mt-12 lg:text-5xl 2xl:mt-0">
 										I just love to build things
 									</h3>
 									<p className="text-base font-normal sm:mt-3 lg:text-xl 2xl:text-3xl">

@@ -4,6 +4,7 @@ import LoremPartners from '../assets/lorem-partners-thumbnail.png';
 import ShoeStop from '../assets/shoestop-thumbnail.png';
 import ProjectItem from './ProjectItem';
 import TamarT from '../assets/TamarT.png';
+import TT from '../assets/tt.png';
 
 const Work = () => {
 	let projectSectionTitle = useRef();
@@ -29,14 +30,14 @@ const Work = () => {
 		<>
 			<div className="z-20 mx-auto flex px-2 sm:px-0" name="projects">
 				<div className="z-20 hidden bg-white pt-24" />
-				<div className="mx-auto h-[230vh] max-w-xs sm:flex sm:h-[310vh] sm:max-w-xl md:max-w-2xl lg:h-[230vh] lg:max-w-4xl xl:max-w-7xl 2xl:h-[230vh] 2xl:max-w-[1520px]">
+				<div className="mx-auto max-w-xs sm:flex  sm:max-w-xl md:max-w-2xl  lg:max-w-4xl xl:max-w-7xl  2xl:max-w-[1520px]">
 					<div className="mx-auto flex  w-full flex-col items-center">
 						<div
 							ref={(el) => (projectSectionTitle = el)}
 							className="grid w-full rounded-t-xl py-4 lg:grid-cols-2 lg:gap-8"
 						>
 							<div className="flex justify-center sm:justify-start">
-								<h1 className="mx-auto inline-flex text-left text-5xl text-teal-800 sm:text-7xl md:mx-0 2xl:mb-8 2xl:text-9xl">
+								<h1 className="mx-auto inline-flex text-left text-5xl text-teal-800 sm:text-7xl md:mx-0 2xl:mb-8 2xl:text-8xl">
 									- Projects -
 								</h1>
 							</div>
@@ -45,12 +46,20 @@ const Work = () => {
 
 						<div className="grid grid-cols-1 md:gap-4  ">
 							<ProjectItem
+								title="Tamar's Redesign"
+								tech="Next.js, Sanity.io, React, TailwindCSS"
+								backgroundImg={TT}
+								githubLink="https://github.com/esotuvaka/Agent-Site"
+								demoLink="https://agent-site.vercel.app/"
+								description="A redesign of a previous lead generation site. I started from scratch so I could integrate a Sanity CMS via an API and allow her and myself to perform CRUD operations, all while maintaining high Lighthouse scores!"
+							/>
+							<ProjectItem
 								title="Shoestop"
 								tech="Hydrogen.js, React, TailwindCSS, GraphQL"
 								backgroundImg={ShoeStop}
 								githubLink="https://github.com/esotuvaka/ShoeStop-Hydrogen-Store-TEST"
 								demoLink="https://stackblitz.com/github/esotuvaka/ShoeStop-Hydrogen-Store-TEST?file=README.md"
-								description="Concept store built using Shopify's new Hydrogen framework. Integrates with Shopify CMS via GraphQL, complete with a full checkout journey, product customization, and collection pages."
+								description="Concept store built using Shopify's new Hydrogen framework. Integrates with Shopify CMS via GraphQL, complete with a full checkout journey, product customization, and collection pages. CANNOT PREVIEW STACKBLITZ ON MOBILE!"
 							/>
 							<ProjectItem
 								title="Tamar Tarkhanian"
