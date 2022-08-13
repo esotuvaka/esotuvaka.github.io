@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.79bc7465.css",
-    "main.js": "/static/js/main.9cf87f83.js",
+    "main.css": "/static/css/main.48057a5a.css",
+    "main.js": "/static/js/main.346307e2.js",
+    "static/media/tt.png": "/static/media/tt.ae68f3a6ed3e3d1c6e5b.png",
     "static/media/lorem-partners-thumbnail.png": "/static/media/lorem-partners-thumbnail.6d9779b0208759f53781.png",
     "static/media/TamarT.png": "/static/media/TamarT.93f9d408da2e4978bf4c.png",
     "static/media/shoestop-thumbnail.png": "/static/media/shoestop-thumbnail.76ac166a6f837b04e22e.png",
     "static/media/1967640-sackboy_happy.webp": "/static/media/1967640-sackboy_happy.7f85a0dad4af991c0015.webp",
     "static/media/Esotuvaka-Logo.png": "/static/media/Esotuvaka-Logo.b332ba31049b717480ff.png",
     "index.html": "/index.html",
-    "main.79bc7465.css.map": "/static/css/main.79bc7465.css.map",
-    "main.9cf87f83.js.map": "/static/js/main.9cf87f83.js.map"
+    "main.48057a5a.css.map": "/static/css/main.48057a5a.css.map",
+    "main.346307e2.js.map": "/static/js/main.346307e2.js.map"
   },
   "entrypoints": [
-    "static/css/main.79bc7465.css",
-    "static/js/main.9cf87f83.js"
+    "static/css/main.48057a5a.css",
+    "static/js/main.346307e2.js"
   ]
 }
