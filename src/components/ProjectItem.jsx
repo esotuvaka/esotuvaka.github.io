@@ -61,11 +61,11 @@ const ProjectItem = ({
 	}, []);
 
 	return (
-		<div className="h-[70vh] sm:h-[100vh] sm:pt-4 lg:h-[70vh] 2xl:h-[70vh]">
+		<div className="py-[5%]">
 			<div className="mx-auto  text-black md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-[1520px]">
 				<div className="">
-					<div className="grid h-full w-full grid-cols-1 flex-row justify-start rounded-md duration-500 sm:grid-cols-3  sm:gap-x-4 md:grid-cols-5 2xl:grid-cols-3">
-						<div className="flex flex-col bg-white sm:col-span-3 sm:mx-auto sm:mb-4 md:col-span-5 lg:col-span-2 2xl:col-span-1">
+					<div className="grid h-full w-full grid-cols-1 flex-row justify-start rounded-md duration-500 sm:grid-cols-3  sm:gap-x-4 md:grid-cols-5">
+						<div className="flex flex-col bg-white sm:col-span-3 sm:mx-auto sm:mb-4 md:col-span-5 lg:col-span-2  ">
 							<h2
 								ref={(el) => (projectTitle = el)}
 								className=" text-left text-4xl font-semibold md:mb-4 md:text-5xl lg:mb-0 lg:text-4xl xl:text-5xl 2xl:text-7xl"
@@ -103,7 +103,7 @@ const ProjectItem = ({
 						</div>
 						<div
 							ref={(el) => (projectImage = el)}
-							className="mx-auto flex items-center rounded-lg   sm:col-span-3 sm:mx-0 sm:pt-2 md:col-span-5 lg:col-span-3 lg:justify-center lg:pt-0 2xl:col-span-2"
+							className="mx-auto flex items-center rounded-lg   sm:col-span-3 sm:mx-0 sm:pt-2 md:col-span-5 lg:col-span-3 lg:justify-center lg:pt-0  "
 						>
 							<a href={demoLink} target="_blank" rel="noreferrer" className="">
 								<img

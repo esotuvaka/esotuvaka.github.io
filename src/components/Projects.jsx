@@ -5,6 +5,7 @@ import ShoeStop from '../assets/shoestop-thumbnail.png';
 import ProjectItem from './ProjectItem';
 import TamarT from '../assets/TamarT.png';
 import TT from '../assets/tt.png';
+import WC from '../assets/word-colors.png';
 
 const Work = () => {
 	let projectSectionTitle = useRef();
@@ -46,12 +47,20 @@ const Work = () => {
 
 						<div className="grid grid-cols-1 md:gap-4  ">
 							<ProjectItem
-								title="Tamar's Redesign"
+								title="Words to Colors App!"
+								tech="React, TailwindCSS"
+								backgroundImg={WC}
+								githubLink="https://github.com/esotuvaka/word-colors"
+								demoLink="https://esotuvaka.github.io/word-colors/"
+								description="A simple app that takes words, sentences, or ideas and outputs a hexidecimal color string. This app breaks the input down into ASCII characters, converts them with my color algorithm, then recombines them into a hexadecimal color string that you can copy and use however you like. Try it out with an emotion, your name, favorite song, or even your favorite math equation!"
+							/>
+							<ProjectItem
+								title="Estate Agent Site"
 								tech="Next.js, Sanity.io, React, TailwindCSS"
 								backgroundImg={TT}
 								githubLink="https://github.com/esotuvaka/Agent-Site"
 								demoLink="https://agent-site.vercel.app/"
-								description="A full stack redesign of a previous lead generation site. I started from scratch so I could integrate a Sanity CMS via an API and allow her and myself to perform CRUD operations, all while maintaining high Lighthouse scores!"
+								description="A full stack lead generation site for real estate agents. I integrated a Sanity CMS that would allow myself and clients to perform CRUD operations, and have dynamic pages for each listing!"
 							/>
 							<ProjectItem
 								title="Shoestop"
@@ -59,7 +68,7 @@ const Work = () => {
 								backgroundImg={ShoeStop}
 								githubLink="https://github.com/esotuvaka/ShoeStop-Hydrogen-Store-TEST"
 								demoLink="https://stackblitz.com/github/esotuvaka/ShoeStop-Hydrogen-Store-TEST?file=README.md"
-								description="Concept store built using Shopify's new Hydrogen framework. Integrates with Shopify CMS via GraphQL, complete with a full checkout journey, product customization, and collection pages. CANNOT PREVIEW STACKBLITZ ON MOBILE!"
+								description="Concept store built using Shopify's new Hydrogen framework. Integrates with Shopify CMS via GraphQL, complete with a full checkout journey, product customization, and collection pages. *CANNOT PREVIEW STACKBLITZ ON MOBILE!* "
 							/>
 							<ProjectItem
 								title="Tamar Tarkhanian"

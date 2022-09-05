@@ -53,11 +53,11 @@ const About = () => {
 		<>
 			<div
 				name="about"
-				className="mx-auto flex h-[70vh] px-2 sm:h-[100vh] sm:px-0 lg:h-[80vh] 2xl:h-[60vh]"
+				className="mx-auto my-[10%] flex h-min   px-2  sm:px-0  "
 			>
 				<div className="hidden pt-24 sm:pt-0"></div>
-				<div className="mx-auto max-w-xs sm:max-w-xl md:max-w-2xl lg:h-[80vh] lg:max-w-4xl xl:max-w-7xl 2xl:max-w-[1520px]">
-					<div className="mx-auto items-center justify-center sm:h-[100vh] 2xl:h-[50vh] ">
+				<div className="mx-auto max-w-xs sm:max-w-xl  md:max-w-2xl lg:max-w-4xl xl:max-w-7xl 2xl:max-w-[1520px]">
+					<div className="mx-auto items-center justify-center  ">
 						<div className="">
 							<div
 								ref={(el) => (aboutSectionTitle = el)}
