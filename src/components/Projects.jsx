@@ -6,6 +6,7 @@ import ProjectItem from './ProjectItem';
 import TamarT from '../assets/TamarT.png';
 import TT from '../assets/tt.png';
 import WC from '../assets/word-colors.png';
+import SS from '../assets/spotify-search.png';
 
 const Work = () => {
 	let projectSectionTitle = useRef();
@@ -45,7 +46,15 @@ const Work = () => {
 							<div></div>
 						</div>
 
-						<div className="grid grid-cols-1 md:gap-4  ">
+						<div className="grid grid-cols-1 md:gap-4">
+							<ProjectItem
+								title="Spotify Search"
+								tech="React, Spotify Web API, TailwindCSS"
+								backgroundImg={SS}
+								githubLink="https://github.com/esotuvaka/spotify-search"
+								demoLink="https://esotuvaka.github.io/spotify-search/"
+								description="A web app that allows users to search for their favorite artists on Spotify and see basic info such as number of followers, genres, and all of their albums. I implemented an options setting that allows users to edit the number of genres displayed, color themes (including dark mode), and whether links open in the browser or in the Spotify App. "
+							/>
 							<ProjectItem
 								title="Words to Colors App!"
 								tech="React, TailwindCSS"
