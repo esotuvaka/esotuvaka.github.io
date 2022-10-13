@@ -48,7 +48,7 @@ const Home = () => {
 				data-rate=".4"
 				data-direction="vertical"
 			>
-				<div className="  mx-auto flex h-full max-w-xs flex-col justify-center sm:max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-[1520px]">
+				<div className="  mx-auto flex h-full max-w-xs flex-col justify-center sm:max-w-xl md:max-w-2xl lg:w-3/4 lg:max-w-4xl xl:max-w-6xl 2xl:max-w-[1520px]">
 					<div
 						ref={(el) => (heroDev = el)}
 						className="z-10 flex rotate-0 text-lg font-semibold text-black sm:text-4xl xl:max-w-[450px]"

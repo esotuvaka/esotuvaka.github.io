@@ -32,36 +32,36 @@ const Work = () => {
 		<>
 			<div className="z-20 mx-auto flex px-2 sm:px-0" name="projects">
 				<div className="z-20 hidden bg-white pt-24" />
-				<div className="mx-auto max-w-xs sm:flex  sm:max-w-xl md:max-w-2xl  lg:max-w-4xl xl:max-w-7xl  2xl:max-w-[1520px]">
+				<div className="mx-auto max-w-xs sm:flex  sm:max-w-xl md:max-w-2xl  lg:w-3/4 lg:max-w-4xl xl:max-w-7xl  2xl:max-w-[1520px]">
 					<div className="mx-auto flex  w-full flex-col items-center">
 						<div
 							ref={(el) => (projectSectionTitle = el)}
 							className="grid w-full rounded-t-xl py-4 lg:grid-cols-2 lg:gap-8"
 						>
 							<div className="flex justify-center sm:justify-start">
-								<h1 className="mx-auto inline-flex text-left text-5xl text-teal-800 sm:text-7xl md:mx-0 2xl:mb-8 2xl:text-8xl">
+								<h1 className="mx-auto inline-flex text-left text-5xl text-teal-800 sm:text-7xl md:mx-0 lg:text-6xl 2xl:mb-8 2xl:text-8xl">
 									- Projects -
 								</h1>
 							</div>
-							<div></div>
+							<></>
 						</div>
 
 						<div className="grid grid-cols-1 md:gap-4">
 							<ProjectItem
 								title="Spotify Search"
-								tech="React, Spotify Web API, TailwindCSS"
+								tech="React, TypeScript, Spotify Web API, TailwindCSS"
 								backgroundImg={SS}
 								githubLink="https://github.com/esotuvaka/spotify-search"
 								demoLink="https://esotuvaka.github.io/spotify-search/"
 								description="A web app that allows users to search for their favorite artists on Spotify and see basic info such as number of followers, genres, and all of their albums. I implemented an options setting that allows users to edit the number of genres displayed, color themes (including dark mode), and whether links open in the browser or in the Spotify App. "
 							/>
 							<ProjectItem
-								title="Words to Colors App!"
+								title="Words to Colors"
 								tech="React, TailwindCSS"
 								backgroundImg={WC}
 								githubLink="https://github.com/esotuvaka/word-colors"
 								demoLink="https://esotuvaka.github.io/word-colors/"
-								description="A simple app that takes words, sentences, or ideas and outputs a hexidecimal color string. This app breaks the input down into ASCII characters, converts them with my color algorithm, then recombines them into a hexadecimal color string that you can copy and use however you like. Try it out with an emotion, your name, favorite song, or even your favorite math equation!"
+								description="A simple app that takes words, sentences, or ideas and outputs a hexadecimal color string. This app breaks the input down into ASCII characters, converts them with my color algorithm, then recombines them into a hexadecimal color string that you can copy and use however you like. Try it out with an emotion, your name, favorite song, or even your favorite math equation!"
 							/>
 							<ProjectItem
 								title="Estate Agent Site"

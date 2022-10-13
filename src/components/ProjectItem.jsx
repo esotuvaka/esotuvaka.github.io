@@ -23,7 +23,7 @@ const ProjectItem = ({
 			{ opacity: 0, x: 0 },
 			{
 				scrollTrigger: {
-					trigger: projectTitle,
+					trigger: projectDesc,
 				},
 				opacity: 1,
 
@@ -37,7 +37,7 @@ const ProjectItem = ({
 			{ opacity: 0 },
 			{
 				scrollTrigger: {
-					trigger: projectTitle,
+					trigger: projectDesc,
 				},
 				opacity: 1,
 				duration: 1,
@@ -50,7 +50,7 @@ const ProjectItem = ({
 			{ opacity: 0 },
 			{
 				scrollTrigger: {
-					trigger: projectTitle,
+					trigger: projectDesc,
 				},
 				opacity: 1,
 				ease: Power4.easeIn,
@@ -64,8 +64,8 @@ const ProjectItem = ({
 		<div className="py-[5%]">
 			<div className="mx-auto  text-black md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-[1520px]">
 				<div className="">
-					<div className="grid h-full w-full grid-cols-1 flex-row justify-start rounded-md duration-500 sm:grid-cols-3  sm:gap-x-4 md:grid-cols-5">
-						<div className="flex flex-col bg-white sm:col-span-3 sm:mx-auto sm:mb-4 md:col-span-5 lg:col-span-2  ">
+					<div className="grid h-full w-full grid-cols-1 flex-row justify-start rounded-md duration-500 sm:grid-cols-3 sm:gap-x-4 md:grid-cols-4">
+						<div className="flex flex-col bg-white sm:col-span-3 sm:mx-auto sm:mb-4 md:col-span-5 lg:col-span-2">
 							<h2
 								ref={(el) => (projectTitle = el)}
 								className=" text-left text-4xl font-semibold md:mb-4 md:text-5xl lg:mb-0 lg:text-4xl xl:text-5xl 2xl:text-7xl"
@@ -103,24 +103,18 @@ const ProjectItem = ({
 						</div>
 						<div
 							ref={(el) => (projectImage = el)}
-							className="mx-auto flex items-center rounded-lg   sm:col-span-3 sm:mx-0 sm:pt-2 md:col-span-5 lg:col-span-3 lg:justify-center lg:pt-0  "
+							className="mx-auto flex items-center rounded-lg sm:col-span-3 sm:mx-0 sm:pt-2 md:col-span-4 md:mx-auto md:w-4/5 lg:col-span-2 lg:w-full lg:justify-center lg:pt-0  "
 						>
 							<a href={demoLink} target="_blank" rel="noreferrer" className="">
 								<img
 									alt=""
 									src={backgroundImg}
-									height={250}
 									className="rounded-lg p-2 shadow-md shadow-neutral-600 transition-all duration-500 hover:scale-[1.01] hover:shadow-lg hover:shadow-neutral-600 "
 								/>
 							</a>
 						</div>
 					</div>
 				</div>
-				{/* <p className="mt-2 max-w-[545px] text-lg font-semibold">
-					{description}
-					<br></br>
-					<span className="text-sm mt-4">{disclaimer}</span>
-				</p> */}
 			</div>
 		</div>
 	);

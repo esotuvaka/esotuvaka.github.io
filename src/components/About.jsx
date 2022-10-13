@@ -56,7 +56,7 @@ const About = () => {
 				className="mx-auto my-[10%] flex h-min   px-2  sm:px-0  "
 			>
 				<div className="hidden pt-24 sm:pt-0"></div>
-				<div className="mx-auto max-w-xs sm:max-w-xl  md:max-w-2xl lg:max-w-4xl xl:max-w-7xl 2xl:max-w-[1520px]">
+				<div className="mx-auto max-w-xs sm:max-w-xl  md:max-w-2xl lg:w-3/4 lg:max-w-4xl xl:max-w-7xl 2xl:max-w-[1520px]">
 					<div className="mx-auto items-center justify-center  ">
 						<div className="">
 							<div
@@ -64,7 +64,7 @@ const About = () => {
 								className="grid w-full rounded-t-xl py-4 md:grid-cols-2 md:gap-8"
 							>
 								<div className="flex justify-center sm:justify-start">
-									<h1 className="mx-auto inline-flex text-left text-5xl text-teal-800 sm:text-7xl md:mx-0 2xl:text-8xl">
+									<h1 className="mx-auto inline-flex text-left text-5xl text-teal-800 sm:text-7xl md:mx-0 lg:text-6xl 2xl:text-8xl">
 										- About -
 									</h1>
 								</div>
@@ -74,10 +74,7 @@ const About = () => {
 								ref={(el) => (aboutLeft = el)}
 								className="grid grid-cols-1 justify-center rounded-xl bg-white sm:grid-cols-5 sm:gap-8 sm:py-4 xl:max-w-6xl 2xl:max-w-[1520px]"
 							>
-								<div className="items-center  justify-center font-bold sm:col-span-2">
-									<p className="text-3xl text-black sm:text-5xl">
-										Hi! I'm Eric, and this is my story so far...
-									</p>
+								<div className="flex items-center justify-center font-bold sm:col-span-2">
 									<img
 										alt="LittleBigPlanet Sackboy!"
 										className="mx-auto hidden w-[185px] transition-all duration-500 hover:rotate-1 hover:scale-105 sm:mt-8 sm:block"
@@ -94,18 +91,18 @@ const About = () => {
 									<p className="text-base font-normal sm:mt-3 lg:text-xl 2xl:text-3xl">
 										My love for code started when I was 10, with the videogames
 										LittleBigPlanet and Minecraft. I didn't know it at the time,
-										but I was creating minigames, digital clocks, and more with
-										code. The only difference was that this code wasn't typed
-										out, it was wired together...
+										but I was creating minigames, digital clocks, and more using
+										coding concepts like OOP, conditional actions, and more!
 									</p>
 									<p className="mt-3 text-base font-normal lg:text-xl 2xl:text-3xl">
-										Nowadays I'm a self-taught frontend developer in Irvine, CA
-										that specializes in building websites with clean aesthetics,
-										engaging UI/UX, as well as high accessibility and SEO.
+										Nowadays I'm a self-taught Full Stack Developer in Irvine,
+										CA that specializes in building unique digital experiences
+										with aesthetic UI/UX, optimized performance, and high
+										accessibility / SEO.
 									</p>
 									<p className="mt-3 text-base font-normal lg:text-xl 2xl:text-3xl">
-										I've always had a hunger for knowledge and creation, and I
-										aim to be constantly learning, improving, and building.
+										I've always had a hunger for knowledge and creation. I'm
+										constantly learning, improving, and building.
 									</p>
 								</div>
 							</div>

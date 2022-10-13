@@ -38,7 +38,7 @@ const Contact = () => {
 	return (
 		<>
 			<div
-				className="mx-auto my-[15%] flex  w-full max-w-xs flex-col items-center justify-center px-2 sm:max-w-xl sm:px-0 md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-[1520px]"
+				className="mx-auto my-[15%] flex  w-full max-w-xs flex-col items-center justify-center px-2 sm:max-w-xl sm:px-0 md:max-w-2xl lg:w-3/4 lg:max-w-4xl xl:max-w-6xl 2xl:max-w-[1520px]"
 				name="contact"
 			>
 				<div
@@ -46,7 +46,7 @@ const Contact = () => {
 					className="grid w-full max-w-[1200px] grid-cols-1 rounded-t-xl py-4 lg:grid-cols-2 lg:gap-8 2xl:max-w-[1520px]"
 				>
 					<div className="flex justify-center sm:justify-start">
-						<h1 className="mx-auto inline-flex text-left text-5xl text-teal-800 sm:text-7xl md:mx-0 2xl:text-8xl">
+						<h1 className="mx-auto inline-flex text-left text-5xl text-teal-800 sm:text-7xl md:mx-0 lg:text-6xl 2xl:text-8xl">
 							- Contact -
 						</h1>
 					</div>
@@ -64,19 +64,19 @@ const Contact = () => {
 						</p>
 
 						<input
-							className="rounded-md border-2 border-black bg-white p-2"
+							className="rounded-md border-2 border-neutral-400 bg-white  p-2 focus:border-black"
 							type="text"
 							placeholder="Name"
 							name="name"
 						/>
 						<input
-							className="my-4 rounded-md border-2 border-black bg-white p-2"
+							className="my-4 rounded-md border-2 border-neutral-400 bg-white  p-2 focus:border-black"
 							type="email"
 							placeholder="Email"
 							name="email"
 						/>
 						<textarea
-							className="rounded-md border-2 border-black bg-white p-2"
+							className="rounded-md border-2 border-neutral-400 bg-white  p-2 focus:border-black"
 							name="message"
 							rows="4"
 							placeholder="Message"
