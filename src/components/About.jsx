@@ -88,19 +88,19 @@ const About = () => {
 									<h3 className="relative mt-4 font-semibold italic text-teal-800  sm:mt-0 sm:text-3xl sm:text-black md:mt-12 lg:text-5xl 2xl:mt-0">
 										I just love to build things
 									</h3>
-									<p className="text-base font-normal sm:mt-3 lg:text-xl 2xl:text-3xl">
+									<p className="text-base font-normal sm:mt-3 lg:text-xl ">
 										My love for code started when I was 10, with the videogames
 										LittleBigPlanet and Minecraft. I didn't know it at the time,
 										but I was creating minigames, digital clocks, and more using
 										coding concepts like OOP, conditional actions, and more!
 									</p>
-									<p className="mt-3 text-base font-normal lg:text-xl 2xl:text-3xl">
+									<p className="mt-3 text-base font-normal lg:text-xl ">
 										Nowadays I'm a self-taught Full Stack Developer in Irvine,
 										CA that specializes in building unique digital experiences
 										with aesthetic UI/UX, optimized performance, and high
 										accessibility / SEO.
 									</p>
-									<p className="mt-3 text-base font-normal lg:text-xl 2xl:text-3xl">
+									<p className="mt-3 text-base font-normal lg:text-xl ">
 										I've always had a hunger for knowledge and creation. I'm
 										constantly learning, improving, and building.
 									</p>

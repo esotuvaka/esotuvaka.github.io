@@ -29,7 +29,7 @@ const Navbar = () => {
 					<div>
 						<Link to="home" smooth={true} duration={500}>
 							<img
-								className="w-[50px] transition-all duration-500 hover:scale-105 hover:cursor-pointer 2xl:w-[80px]"
+								className="w-[50px] transition-all duration-500 hover:scale-105 hover:cursor-pointer 2xl:w-[60px]"
 								src={Logo}
 								alt="Eric Otuvaka Logo"
 							></img>
@@ -52,7 +52,7 @@ const Navbar = () => {
 								<h2>About</h2>
 							</Link>
 						</li>
-						<button className="-mt-0 rounded-sm px-4  text-black shadow-md shadow-neutral-600 ring-2 ring-black transition-all duration-500 hover:bg-teal-800 hover:text-white hover:shadow-lg hover:shadow-neutral-600 hover:ring-teal-800 2xl:text-4xl">
+						<button className="-mt-0 rounded-sm px-4 py-1 text-black shadow-md shadow-neutral-400 ring-2 ring-black transition-all duration-500 hover:bg-teal-800 hover:text-white hover:shadow-lg hover:shadow-neutral-400 hover:ring-teal-800 2xl:text-2xl">
 							<Link to="contact" smooth={true} duration={500} width={121}>
 								<h2>Contact</h2>
 							</Link>

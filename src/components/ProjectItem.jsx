@@ -81,7 +81,7 @@ const ProjectItem = ({
 							</h3>
 							<p
 								ref={(el) => (projectDesc = el)}
-								className="mb-5 flex text-base font-normal xl:text-2xl 2xl:text-3xl"
+								className="mb-5 flex text-base font-normal xl:text-xl"
 							>
 								{description}
 							</p>
@@ -90,12 +90,12 @@ const ProjectItem = ({
 								className="mx-auto hidden sm:flex sm:flex-row"
 							>
 								<a href={demoLink} target="_blank" rel="noreferrer">
-									<button className="mr-4 rounded-sm py-2 px-6 font-semibold  text-black shadow-md shadow-neutral-600 ring-2 ring-black transition-all duration-500 hover:-translate-y-1 hover:bg-teal-800 hover:text-white hover:shadow-lg hover:shadow-neutral-600 hover:ring-teal-800">
+									<button className="mr-4 rounded-sm py-2 px-6 font-semibold  text-black shadow-md shadow-neutral-400 ring-2 ring-black transition-all duration-500 hover:-translate-y-1 hover:bg-teal-800 hover:text-white hover:shadow-lg hover:shadow-neutral-400 hover:ring-teal-800">
 										<h2>Demo</h2>
 									</button>
 								</a>
 								<a href={githubLink} target="_blank" rel="noreferrer">
-									<button className="rounded-sm py-2 px-6 font-semibold  text-black shadow-md shadow-neutral-600 ring-2 ring-black transition-all duration-500 hover:-translate-y-1 hover:bg-teal-800 hover:text-white hover:shadow-lg hover:shadow-neutral-600 hover:ring-teal-800">
+									<button className="rounded-sm py-2 px-6 font-semibold  text-black shadow-md shadow-neutral-400 ring-2 ring-black transition-all duration-500 hover:-translate-y-1 hover:bg-teal-800 hover:text-white hover:shadow-lg hover:shadow-neutral-400 hover:ring-teal-800">
 										<h2>Code</h2>
 									</button>
 								</a>
@@ -109,7 +109,7 @@ const ProjectItem = ({
 								<img
 									alt=""
 									src={backgroundImg}
-									className="rounded-lg p-2 shadow-md shadow-neutral-600 transition-all duration-500 hover:scale-[1.01] hover:shadow-lg hover:shadow-neutral-600 "
+									className="rounded-lg p-2 shadow-md shadow-neutral-400 transition-all duration-500 hover:scale-[1.01] hover:shadow-lg hover:shadow-neutral-400 "
 								/>
 							</a>
 						</div>

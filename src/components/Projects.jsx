@@ -53,7 +53,7 @@ const Work = () => {
 								backgroundImg={SS}
 								githubLink="https://github.com/esotuvaka/spotify-search"
 								demoLink="https://esotuvaka.github.io/spotify-search/"
-								description="A web app that allows users to search for their favorite artists on Spotify and see basic info such as number of followers, genres, and all of their albums. I implemented an options setting that allows users to edit the number of genres displayed, color themes (including dark mode), and whether links open in the browser or in the Spotify App. "
+								description="A web app that allows users to search for their favorite artists on Spotify and see their number of followers, genres, and all of their albums. I implemented an options setting that allows users to edit the number of genres displayed, color themes (including dark mode), and whether links open in the browser or in the Spotify App. "
 							/>
 							<ProjectItem
 								title="Words to Colors"

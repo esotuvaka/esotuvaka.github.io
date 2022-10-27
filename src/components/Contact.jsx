@@ -57,7 +57,7 @@ const Contact = () => {
 						ref={(el) => (contactForm = el)}
 						method="POST"
 						action="https://getform.io/f/59170bd6-bf32-4da3-a9c7-13ce88bc64a7"
-						className="flex w-full max-w-[600px] flex-col pb-2"
+						className="flex w-full max-w-[600px] flex-col pb-4"
 					>
 						<p className="mb-4 text-2xl font-semibold text-black sm:py-4 sm:text-3xl">
 							Submit the form below or send an email to: eric.otuvaka@gmail.com
@@ -81,7 +81,7 @@ const Contact = () => {
 							rows="4"
 							placeholder="Message"
 						></textarea>
-						<button className="mx-auto mt-4 rounded-sm bg-white py-2 px-6 text-center  font-semibold text-black shadow-md shadow-neutral-600 ring-2 ring-black transition-all duration-500 hover:-translate-y-1 hover:bg-teal-800 hover:text-white hover:shadow-lg hover:shadow-neutral-600 hover:ring-teal-800">
+						<button className="mx-auto mt-4 rounded-sm bg-white py-2 px-6 text-center  font-semibold text-black shadow-md shadow-neutral-400 ring-2 ring-black transition-all duration-500 hover:-translate-y-1 hover:bg-teal-800 hover:text-white hover:shadow-lg hover:shadow-neutral-400 hover:ring-teal-800">
 							<h2>Send</h2>
 						</button>
 					</form>

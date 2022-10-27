@@ -123,7 +123,7 @@ const Home = () => {
 						className="hidden sm:flex md:gap-4"
 						ref={(el) => (heroButton = el)}
 					>
-						<button className="z-10  my-4 flex items-center justify-center rounded-md border-2 border-black bg-white text-black shadow-md shadow-neutral-600 duration-500 hover:-translate-y-1 hover:border-teal-800 hover:bg-teal-800 hover:text-white hover:shadow-lg hover:shadow-neutral-600">
+						<button className="z-10  my-4 flex items-center justify-center rounded-md border-2 border-black bg-white text-black shadow-md shadow-neutral-400 duration-500 hover:-translate-y-1 hover:border-teal-800 hover:bg-teal-800 hover:text-white hover:shadow-lg hover:shadow-neutral-400">
 							<Link
 								to="projects"
 								smooth={true}
