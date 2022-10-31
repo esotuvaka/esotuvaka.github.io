@@ -43,15 +43,16 @@ const Navbar = () => {
 							</Link>
 						</li>
 						<li className="navBtn">
-							<Link to="projects" smooth={true} duration={500} offset={-120}>
-								<h2>Projects</h2>
-							</Link>
-						</li>
-						<li className="navBtn">
 							<Link to="about" smooth={true} duration={500} offset={-200}>
 								<h2>About</h2>
 							</Link>
 						</li>
+						<li className="navBtn">
+							<Link to="projects" smooth={true} duration={500} offset={-120}>
+								<h2>Projects</h2>
+							</Link>
+						</li>
+
 						<button className="-mt-0 rounded-sm px-4 py-1 text-black shadow-md shadow-neutral-400 ring-2 ring-black transition-all duration-500 hover:bg-teal-800 hover:text-white hover:shadow-lg hover:shadow-neutral-400 hover:ring-teal-800 2xl:text-2xl">
 							<Link to="contact" smooth={true} duration={500} width={121}>
 								<h2>Contact</h2>
@@ -88,23 +89,23 @@ const Navbar = () => {
 						<li className="cursor-pointer py-6 text-4xl">
 							<Link
 								onClick={handleClick}
-								to="projects"
-								smooth={true}
-								duration={500}
-								offset={-180}
-							>
-								Projects
-							</Link>
-						</li>
-						<li className="cursor-pointer py-6 text-4xl">
-							<Link
-								onClick={handleClick}
 								to="about"
 								smooth={true}
 								duration={500}
 								offset={-180}
 							>
 								About
+							</Link>
+						</li>
+						<li className="cursor-pointer py-6 text-4xl">
+							<Link
+								onClick={handleClick}
+								to="projects"
+								smooth={true}
+								duration={500}
+								offset={-180}
+							>
+								Projects
 							</Link>
 						</li>
 

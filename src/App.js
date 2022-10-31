@@ -14,8 +14,9 @@ function App() {
 				<h1>
 					<Navbar />
 					<Home />
-					<Projects />
 					<About />
+					<Projects />
+
 					<Contact />
 				</h1>
 			</div>
