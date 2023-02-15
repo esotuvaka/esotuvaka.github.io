@@ -135,7 +135,7 @@ const ProjectItem = ({
 						)}
 						<h3
 							ref={(el) => (projectTitle = el)}
-							className="flex h-[96px] items-end text-left text-4xl font-semibold md:mb-4 md:text-5xl lg:mb-0 lg:text-4xl xl:text-5xl"
+							className="flex items-end text-left text-4xl font-semibold sm:h-[96px] md:mb-4 md:text-5xl lg:mb-0 lg:text-4xl xl:text-5xl"
 						>
 							{title}
 						</h3>

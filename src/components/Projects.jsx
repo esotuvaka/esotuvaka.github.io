@@ -43,7 +43,7 @@ const Projects = () => {
 						</div>
 						<></>
 					</div>
-					<div className="grid grid-cols-3 md:gap-8">
+					<div className="grid grid-cols-1 sm:grid-cols-3 md:gap-8">
 						<ProjectItem
 							title="Spotify Search"
 							tech="React, TypeScript, Spotify Web API, TailwindCSS"

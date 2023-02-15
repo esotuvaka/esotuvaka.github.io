@@ -27,7 +27,10 @@ export default function Experience() {
 	}, []);
 
 	return (
-		<div className="z-20 mx-auto my-[20vh] flex px-2 sm:px-0" name="experience">
+		<div
+			className="z-20 mx-auto my-[10vh] mt-[30vh] flex px-2 sm:my-[20vh] sm:px-0"
+			name="experience"
+		>
 			<div className="mx-auto max-w-xs sm:flex  sm:max-w-xl md:max-w-2xl lg:w-3/4 lg:max-w-4xl xl:max-w-7xl  2xl:max-w-[1520px]">
 				<div className="mx-auto flex  w-full flex-col items-center">
 					<div
@@ -41,7 +44,7 @@ export default function Experience() {
 						</div>
 						<></>
 					</div>
-					<div className="mb-8 grid grid-cols-3 md:gap-8">
+					<div className="mb-8 grid grid-cols-1 sm:grid-cols-3 md:gap-8">
 						<ProjectItem
 							title="Loveturkey"
 							tech="React, Three.js, PHP, MySQL TailwindCSS"

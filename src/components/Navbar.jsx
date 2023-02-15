@@ -70,7 +70,11 @@ const Navbar = () => {
 						onClick={handleClick}
 						className="z-30 flex items-center hover:cursor-pointer md:hidden"
 					>
-						{!nav ? <FaBars /> : <FaTimes className="text-black" />}
+						{!nav ? (
+							<FaBars className="text-white" />
+						) : (
+							<FaTimes className="text-white" />
+						)}
 					</div>
 
 					{/* MOBILE MENU */}
@@ -78,7 +82,7 @@ const Navbar = () => {
 						className={
 							!nav
 								? 'hidden'
-								: ' absolute top-0 left-0 z-20 flex h-screen w-full flex-col items-center justify-center bg-white text-black'
+								: ' absolute top-0 left-0 z-20 flex h-screen w-full flex-col items-center justify-center bg-gradient-to-b from-neutral-700 to-black text-white'
 						}
 					>
 						<li className="cursor-pointer py-6 text-4xl">

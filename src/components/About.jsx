@@ -93,7 +93,7 @@ const About = () => {
 									</p>
 								</div>
 
-								<div className="col-span-2 flex flex-col items-center text-white">
+								<div className="col-span-2 mt-4 flex flex-col items-center text-white sm:mt-0">
 									<img
 										align="left"
 										alt="Eric's Git hub stats"
