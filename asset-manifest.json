@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.4016fddd.css",
-    "main.js": "/static/js/main.bb2aa69b.js",
+    "main.css": "/static/css/main.2064774f.css",
+    "main.js": "/static/js/main.e5bda4d0.js",
     "static/media/tt.png": "/static/media/tt.ae68f3a6ed3e3d1c6e5b.png",
     "static/media/lorem-partners-thumbnail.png": "/static/media/lorem-partners-thumbnail.6d9779b0208759f53781.png",
     "static/media/TamarT.png": "/static/media/TamarT.93f9d408da2e4978bf4c.png",
     "static/media/shoestop-thumbnail.png": "/static/media/shoestop-thumbnail.76ac166a6f837b04e22e.png",
     "static/media/spotify-search.png": "/static/media/spotify-search.d8a85365f40e8c4fac59.png",
-    "static/media/1967640-sackboy_happy.webp": "/static/media/1967640-sackboy_happy.7f85a0dad4af991c0015.webp",
-    "static/media/Esotuvaka-Logo.png": "/static/media/Esotuvaka-Logo.b332ba31049b717480ff.png",
-    "static/media/word-colors.png": "/static/media/word-colors.a80fe38ec4263f54d9b8.png",
+    "static/media/dim.png": "/static/media/dim.0b5819454f571cf6045d.png",
+    "static/media/Loveturkey.png": "/static/media/Loveturkey.1cb76bbf36832737ff95.png",
+    "static/media/t3.png": "/static/media/t3.b70ba549391d08c2ac34.png",
+    "static/media/Esotuvaka Logo (4).png": "/static/media/Esotuvaka Logo (4).47f27eb68268b0427676.png",
     "index.html": "/index.html",
-    "main.4016fddd.css.map": "/static/css/main.4016fddd.css.map",
-    "main.bb2aa69b.js.map": "/static/js/main.bb2aa69b.js.map"
+    "main.2064774f.css.map": "/static/css/main.2064774f.css.map",
+    "main.e5bda4d0.js.map": "/static/js/main.e5bda4d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.4016fddd.css",
-    "static/js/main.bb2aa69b.js"
+    "static/css/main.2064774f.css",
+    "static/js/main.e5bda4d0.js"
   ]
 }
