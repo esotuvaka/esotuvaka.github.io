@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { gsap } from 'gsap';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import Logo from '../assets/Esotuvaka-Logo.png';
+import Logo from '../assets/Esotuvaka Logo (4).png';
 import { Link } from 'react-scroll';
 import { useEffect } from 'react';
 
@@ -21,18 +21,18 @@ const Navbar = () => {
 
 	return (
 		<>
-			<div
+			<header
 				ref={(el) => (navAnim = el)}
-				className="fixed z-20 w-full flex-row bg-white py-4 px-2 sm:px-0 2xl:py-2"
+				className="fixed z-20 w-full flex-row bg-gradient-to-t from-transparent to-neutral-700 py-4 px-2 sm:px-0 2xl:py-4"
 			>
 				<div className="mx-auto flex max-w-xs flex-row justify-between sm:max-w-xl md:max-w-2xl lg:w-3/4 lg:max-w-4xl xl:max-w-6xl 2xl:max-w-[1520px]">
 					<div>
 						<Link to="home" smooth={true} duration={500}>
 							<img
-								className="w-[50px] transition-all duration-500 hover:scale-105 hover:cursor-pointer 2xl:w-[60px]"
 								src={Logo}
-								alt="Eric Otuvaka Logo"
-							></img>
+								alt="Eric Otuvaka's Logo"
+								className="h-20 cursor-pointer p-1"
+							/>
 						</Link>
 					</div>
 
@@ -48,12 +48,17 @@ const Navbar = () => {
 							</Link>
 						</li>
 						<li className="navBtn">
+							<Link to="experience" smooth={true} duration={500} offset={-120}>
+								<h2>Experience</h2>
+							</Link>
+						</li>
+						<li className="navBtn">
 							<Link to="projects" smooth={true} duration={500} offset={-120}>
 								<h2>Projects</h2>
 							</Link>
 						</li>
 
-						<button className="-mt-0 rounded-sm px-4 py-1 text-black shadow-md shadow-neutral-400 ring-2 ring-black transition-all duration-500 hover:bg-teal-800 hover:text-white hover:shadow-lg hover:shadow-neutral-400 hover:ring-teal-800 2xl:text-2xl">
+						<button className="-mt-0 rounded-sm px-4 py-1 text-white shadow-md shadow-transparent ring-2 ring-white transition-all duration-300 hover:bg-neutral-800 hover:text-white hover:shadow-lg hover:shadow-neutral-400 hover:ring-neutral-800 2xl:text-2xl">
 							<Link to="contact" smooth={true} duration={500} width={121}>
 								<h2>Contact</h2>
 							</Link>
@@ -121,7 +126,7 @@ const Navbar = () => {
 						</li>
 					</ul>
 				</div>
-			</div>
+			</header>
 		</>
 	);
 };

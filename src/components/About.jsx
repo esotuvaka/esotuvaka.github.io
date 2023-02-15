@@ -1,6 +1,5 @@
 import React, { useRef, useEffect } from 'react';
 import { gsap, Power4 } from 'gsap';
-import Sackboy from '../assets/1967640-sackboy_happy.webp';
 
 const About = () => {
 	let aboutSectionTitle = useRef();
@@ -51,59 +50,107 @@ const About = () => {
 
 	return (
 		<>
-			<div
-				name="about"
-				className="mx-auto my-[10%] flex h-min   px-2  sm:px-0  "
-			>
-				<div className="hidden pt-24 sm:pt-0"></div>
+			<div className="-mt-20" name="about" />
+			<div className="mx-auto my-[10%] flex h-[50vh] px-2 sm:px-0">
 				<div className="mx-auto max-w-xs sm:max-w-xl  md:max-w-2xl lg:w-3/4 lg:max-w-4xl xl:max-w-7xl 2xl:max-w-[1520px]">
-					<div className="mx-auto items-center justify-center  ">
+					<div className="mx-auto items-center justify-center">
 						<div className="">
 							<div
 								ref={(el) => (aboutSectionTitle = el)}
 								className="grid w-full rounded-t-xl py-4 md:grid-cols-2 md:gap-8"
 							>
 								<div className="flex justify-center sm:justify-start">
-									<h1 className="mx-auto inline-flex text-left text-5xl text-teal-800 sm:text-7xl md:mx-0 lg:text-6xl 2xl:text-8xl">
+									<h2 className="mx-auto inline-flex text-left text-5xl text-white sm:text-7xl md:mx-0 lg:text-6xl 2xl:text-7xl">
 										- About -
-									</h1>
+									</h2>
 								</div>
 								<div></div>
 							</div>
 							<div
 								ref={(el) => (aboutLeft = el)}
-								className="grid grid-cols-1 justify-center rounded-xl bg-white sm:grid-cols-5 sm:gap-8 sm:py-4 xl:max-w-6xl 2xl:max-w-[1520px]"
+								className="grid grid-cols-1 justify-center rounded-xl bg-transparent sm:grid-cols-5 sm:gap-8 sm:py-4 xl:max-w-6xl 2xl:max-w-[1520px]"
 							>
-								<div className="flex items-center justify-center font-bold sm:col-span-2">
-									<img
-										alt="LittleBigPlanet Sackboy!"
-										className="mx-auto hidden w-[185px] transition-all duration-500 hover:rotate-1 hover:scale-105 sm:mt-8 sm:block"
-										src={Sackboy}
-									/>
-								</div>
 								<div
 									ref={(el) => (aboutRight = el)}
 									className="col-span-3 font-medium "
 								>
-									<h3 className="relative mt-4 font-semibold italic text-teal-800  sm:mt-0 sm:text-3xl sm:text-black md:mt-12 lg:text-5xl 2xl:mt-0">
-										I just love to build things
-									</h3>
-									<p className="text-base font-normal sm:mt-3 lg:text-xl ">
-										My love for code started when I was 10, with the videogames
-										LittleBigPlanet and Minecraft. I didn't know it at the time,
-										but I was creating minigames, digital clocks, and more using
-										coding concepts like OOP, conditional actions, and more!
+									<p className="text-base font-normal text-white  lg:text-xl">
+										My journey started at the age of 10 when I discovered my
+										love for coding through videogames. I began creating my own
+										mini-games and digital clocks using concepts like OOP and
+										conditional actions.
 									</p>
-									<p className="mt-3 text-base font-normal lg:text-xl ">
-										Nowadays I'm a self-taught Full Stack Developer in Irvine,
-										CA that specializes in building unique digital experiences
-										with aesthetic UI/UX, optimized performance, and high
-										accessibility / SEO.
+									<p className="mt-3 text-base font-normal text-white lg:text-xl">
+										Now, as a self-taught Full Stack Developer, I specialize in
+										building unique digital experiences with a focus on
+										aesthetic UI/UX, optimized performance, and high SEO. My
+										hunger for knowledge and creation is insatiable, and I am
+										constantly improving and expanding my skills to stay ahead
+										of the curve.
 									</p>
-									<p className="mt-3 text-base font-normal lg:text-xl ">
-										I've always had a hunger for knowledge and creation. I'm
-										constantly learning, improving, and building.
+									<p className="mt-3 text-base font-normal text-white lg:text-xl">
+										Let's build something amazing together!
 									</p>
+								</div>
+
+								<div className="col-span-2 flex flex-col items-center text-white">
+									<img
+										align="left"
+										alt="Eric's Git hub stats"
+										src="https://github-readme-stats.vercel.app/api?username=esotuvaka&show_icons=true&theme=dark"
+									/>
+									<div className="mt-8 flex w-full flex-wrap justify-center">
+										<img
+											className="m-1"
+											alt="Type Script"
+											src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"
+										/>
+										<img
+											className="m-1"
+											alt="Java Script"
+											src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"
+										/>
+										<img
+											className="m-1"
+											alt="My S Q L"
+											src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white"
+										/>
+										<img
+											className="m-1"
+											alt="git"
+											src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"
+										/>
+										<img
+											className="m-1"
+											alt="H T M L 5"
+											src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"
+										/>
+										<img
+											className="m-1"
+											alt="C S S 3"
+											src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"
+										/>
+										<img
+											className="m-1"
+											alt="React"
+											src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"
+										/>
+										<img
+											className="m-1"
+											alt="Next JS"
+											src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white"
+										/>
+										<img
+											className="m-1"
+											alt="Three JS"
+											src="https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white"
+										/>
+										<img
+											className="m-1"
+											alt="Tailwind CSS"
+											src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white"
+										/>
+									</div>
 								</div>
 							</div>
 						</div>

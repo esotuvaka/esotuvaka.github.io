@@ -4,7 +4,7 @@
 @tailwind variants;
 
 .navBtn {
-	@apply border border-transparent text-black transition-all duration-300 hover:cursor-pointer hover:border-b-black 2xl:text-2xl;
+	@apply border border-transparent text-white transition-all duration-300 hover:cursor-pointer hover:border-b-white 2xl:text-2xl;
 }
 
 body {
