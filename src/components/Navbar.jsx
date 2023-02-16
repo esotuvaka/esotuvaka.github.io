@@ -36,7 +36,7 @@ const Navbar = () => {
 						</Link>
 					</div>
 
-					<ul className="hidden gap-8 md:flex md:items-center">
+					<ul className="hidden gap-8 lg:flex lg:items-center">
 						<li className="navBtn">
 							<Link to="home" smooth={true} duration={500}>
 								<h2>Home</h2>
@@ -68,7 +68,7 @@ const Navbar = () => {
 					{/*HAMBURGER */}
 					<div
 						onClick={handleClick}
-						className="z-30 flex items-center hover:cursor-pointer md:hidden"
+						className="z-30 flex items-center hover:cursor-pointer lg:hidden"
 					>
 						{!nav ? (
 							<FaBars className="text-white" />

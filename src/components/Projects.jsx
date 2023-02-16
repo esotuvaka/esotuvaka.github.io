@@ -34,7 +34,7 @@ const Projects = () => {
 				<div className="mx-auto flex  w-full flex-col items-center">
 					<div
 						ref={(el) => (projectSectionTitle = el)}
-						className="grid w-full rounded-t-xl py-4 lg:grid-cols-2 lg:gap-8"
+						className="grid w-full rounded-t-xl py-4 xl:grid-cols-2 xl:gap-8"
 					>
 						<div className="flex justify-center sm:justify-start">
 							<h2 className="mx-auto inline-flex text-left text-5xl text-white sm:text-7xl md:mx-0 lg:text-6xl 2xl:mb-8 2xl:text-7xl">
@@ -43,7 +43,7 @@ const Projects = () => {
 						</div>
 						<></>
 					</div>
-					<div className="grid grid-cols-1 sm:grid-cols-3 md:gap-8">
+					<div className="grid grid-cols-1 gap-8 lg:grid-cols-2 xl:grid-cols-3">
 						<ProjectItem
 							title="Spotify Search"
 							tech="React, TypeScript, Spotify Web API, TailwindCSS"
@@ -66,7 +66,7 @@ const Projects = () => {
 							backgroundImg={ShoeStop}
 							githubLink="https://github.com/esotuvaka/ShoeStop-Hydrogen-Store-TEST"
 							demoLink="https://stackblitz.com/github/esotuvaka/ShoeStop-Hydrogen-Store-TEST?file=README.md"
-							description="Full Stack concept store built using Shopify's new Hydrogen framework. Integrates with Shopify CMS via GraphQL, complete with a full checkout journey, product customization, and collection pages. "
+							description="Full Stack concept store built using Shopify's Hydrogen framework. Integrates with Shopify CMS, complete with a full checkout journey and product customization. "
 						/>
 						<ProjectItem
 							title="Tamar Tarkhanian"

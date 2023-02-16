@@ -10,9 +10,11 @@ const ProjectItem = ({
 	description,
 	role,
 	oss,
+	contract,
 }) => {
 	let projectImage = useRef();
 
+	let projectContract = useRef();
 	let projectRole = useRef();
 	let projectOSS = useRef();
 	let projectTitle = useRef();
@@ -37,6 +39,23 @@ const ProjectItem = ({
 		);
 		gsap.fromTo(
 			[projectOSS],
+			{
+				clipPath: 'polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%)',
+				y: 50,
+			},
+			{
+				scrollTrigger: {
+					trigger: projectDesc,
+				},
+				clipPath: 'polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)',
+				stagger: 0.2,
+				duration: 1,
+				ease: Power4.easeOut,
+				y: 0,
+			}
+		);
+		gsap.fromTo(
+			[projectContract],
 			{
 				clipPath: 'polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%)',
 				y: 50,
@@ -123,19 +142,31 @@ const ProjectItem = ({
 			<div className="mx-auto text-white md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-[1520px]">
 				<div className="grid h-full w-full grid-cols-4 flex-row justify-start rounded-md duration-500">
 					<div className="col-span-4 flex flex-col bg-transparent px-4">
-						{oss ? (
-							<p
-								ref={(el) => (projectOSS = el)}
-								className="my-2 w-min whitespace-nowrap rounded-md bg-blue-700 px-4 py-2 text-xs"
-							>
-								Open Source
-							</p>
-						) : (
-							<div className="h-12" />
-						)}
+						<div className="h-12">
+							{oss ? (
+								<p
+									ref={(el) => (projectOSS = el)}
+									className="my-2 w-min whitespace-nowrap rounded-md bg-blue-700 px-4 py-2 text-xs"
+								>
+									Open Source
+								</p>
+							) : (
+								<></>
+							)}
+							{contract ? (
+								<p
+									ref={(el) => (projectContract = el)}
+									className="my-2 w-min whitespace-nowrap rounded-md bg-red-700 px-4 py-2 text-xs"
+								>
+									Contract
+								</p>
+							) : (
+								<></>
+							)}
+						</div>
 						<h3
 							ref={(el) => (projectTitle = el)}
-							className="flex items-end text-left text-4xl font-semibold sm:h-[96px] md:mb-4 md:text-5xl lg:mb-0 lg:text-4xl xl:text-5xl"
+							className="flex items-end text-left text-4xl font-semibold sm:h-[96px] md:mb-4 md:h-[48px] md:text-5xl lg:mb-0 lg:h-[144px] lg:text-4xl xl:text-5xl"
 						>
 							{title}
 						</h3>

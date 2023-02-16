@@ -64,19 +64,19 @@ const Contact = () => {
 						</p>
 
 						<input
-							className="rounded-md border-2 border-neutral-400 bg-neutral-800 p-2"
+							className="rounded-md border-2 border-neutral-400 bg-neutral-800 p-2 text-white"
 							type="text"
 							placeholder="Name"
 							name="name"
 						/>
 						<input
-							className="my-4 rounded-md border-2 border-neutral-400 bg-neutral-800 p-2"
+							className="my-4 rounded-md border-2 border-neutral-400 bg-neutral-800 p-2 focus:bg-neutral-800"
 							type="email"
 							placeholder="Email"
 							name="email"
 						/>
 						<textarea
-							className="rounded-md border-2 border-neutral-400 bg-neutral-800 p-2"
+							className="rounded-md border-2 border-neutral-400 bg-neutral-800 p-2 text-white"
 							name="message"
 							rows="4"
 							placeholder="Message"

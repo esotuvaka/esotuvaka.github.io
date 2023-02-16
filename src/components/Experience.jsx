@@ -35,7 +35,7 @@ export default function Experience() {
 				<div className="mx-auto flex  w-full flex-col items-center">
 					<div
 						ref={(el) => (experienceSectionTitle = el)}
-						className="grid w-full rounded-t-xl py-4 lg:grid-cols-2 lg:gap-8"
+						className="grid w-full rounded-t-xl py-4 xl:grid-cols-2 xl:gap-8"
 					>
 						<div className="flex justify-center sm:justify-start">
 							<h2 className="mx-auto inline-flex text-left text-5xl text-white sm:text-7xl md:mx-0 lg:text-6xl 2xl:mb-8 2xl:text-7xl">
@@ -44,24 +44,26 @@ export default function Experience() {
 						</div>
 						<></>
 					</div>
-					<div className="mb-8 grid grid-cols-1 sm:grid-cols-3 md:gap-8">
+					<div className="mb-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-8 xl:grid-cols-3">
 						<ProjectItem
 							title="Loveturkey"
 							tech="React, Three.js, PHP, MySQL TailwindCSS"
 							backgroundImg={Loveturkey}
-							role="Full Stack Developer (Contract)"
+							role="Full Stack Developer "
 							demoLink="https://esotuvaka.github.io/loveturkey/"
-							description="Full Stack tourism web app built for Turkish government's official tourism website (In Development). An interactive 3D globe that suggests tourist destinations from a database of over 4000 airports."
+							description="Full Stack tourism web app built for Turkey's official tourism website (In Development). An interactive 3D globe that suggests tourist destinations."
 							oss={false}
+							contract={true}
 						/>
 						<ProjectItem
 							title="Tamar Tarkhanian"
 							tech="Next.js, React, TailwindCSS"
 							backgroundImg={TamarT}
-							role="Full Stack Developer (Contract)"
+							role="Full Stack Developer "
 							demoLink="https://tt-real-estate-agent.vercel.app/"
 							description="Lead generation site built for local Irvine Real Estate Agent. A complete overhaul of the previous site built using Next.js and SSG for performance."
 							oss={false}
+							contract={true}
 						/>
 						<ProjectItem
 							title="create-t3-app"
