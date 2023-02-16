@@ -38,7 +38,7 @@ const Contact = () => {
 	return (
 		<>
 			<div
-				className="mx-auto my-[15%] flex w-full  max-w-xs flex-col items-center justify-center px-2 pb-20 sm:max-w-xl sm:px-0 md:max-w-2xl lg:w-3/4 lg:max-w-4xl xl:max-w-6xl 2xl:max-w-[1520px]"
+				className="mx-auto flex h-screen w-full  max-w-xs flex-col items-center justify-center px-2 pb-20 sm:max-w-xl sm:px-0 md:max-w-2xl lg:w-3/4 lg:max-w-4xl xl:max-w-6xl 2xl:max-w-[1520px]"
 				name="contact"
 			>
 				<div
