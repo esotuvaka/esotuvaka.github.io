@@ -51,7 +51,7 @@ const About = () => {
 	return (
 		<>
 			<div className="-mt-20" name="about" />
-			<div className="mx-auto my-[10%] flex h-[50vh] px-2 sm:px-0">
+			<div className="mx-auto my-[10%] flex px-2 sm:px-0 md:h-[50vh]">
 				<div className="mx-auto max-w-xs sm:max-w-xl  md:max-w-2xl lg:w-3/4 lg:max-w-4xl xl:max-w-7xl 2xl:max-w-[1520px]">
 					<div className="mx-auto items-center justify-center">
 						<div className="">
