@@ -1,4 +1,4 @@
-# esotuvaka.github.io
+# Esotuvaka.github.io
 
 Clean Portfolio built using React and Tailwind
 
