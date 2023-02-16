@@ -75,10 +75,10 @@ const Home = () => {
 						<div
 							id="circle1"
 							ref={(el) => (heroCircle1 = el)}
-							className="floating flex items-center justify-center overflow-hidden rounded-full border-neutral-200 hover:border-blue-300 sm:absolute sm:top-20 sm:right-24 sm:h-64 sm:w-64 sm:border md:right-24 lg:right-80 2xl:right-96"
+							className="floating z-20 flex items-center justify-center overflow-hidden rounded-full border-neutral-200 hover:border-blue-300 sm:absolute sm:top-20 sm:right-24 sm:h-64 sm:w-64 sm:border md:right-24 lg:right-80 2xl:right-96"
 						>
 							<a
-								className="z-30 flex h-20 w-20 items-center  justify-center rounded-full bg-blue-200 text-blue-500 transition-all duration-300 hover:scale-105 hover:border-blue-300 hover:bg-blue-300"
+								className="z-20 flex h-20 w-20 items-center  justify-center rounded-full bg-blue-200 text-blue-500 transition-all duration-300 hover:scale-105 hover:border-blue-300 hover:bg-blue-300"
 								href="https://linkedin.com/in/eric-otuvaka"
 								target="_blank"
 								rel="noreferrer"
@@ -89,7 +89,7 @@ const Home = () => {
 						<div
 							id="circle2"
 							ref={(el) => (heroCircle2 = el)}
-							className="floating2 flex items-center justify-center overflow-hidden rounded-full border-neutral-200 hover:border-neutral-400 sm:absolute sm:left-12 sm:top-0 sm:h-96 sm:w-96 sm:border md:left-24 lg:left-36"
+							className="floating2 z-30 flex items-center justify-center overflow-hidden rounded-full border-neutral-200 hover:border-neutral-400 sm:absolute sm:left-12 sm:top-0 sm:h-96 sm:w-96 sm:border md:left-24 lg:left-36"
 						>
 							<a
 								className="z-30 flex h-20 w-20 items-center justify-center rounded-full bg-neutral-300 text-neutral-800 transition-all duration-300 hover:scale-105 hover:bg-neutral-400"
