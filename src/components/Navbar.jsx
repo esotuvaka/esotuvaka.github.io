@@ -23,7 +23,7 @@ const Navbar = () => {
 		<>
 			<header
 				ref={(el) => (navAnim = el)}
-				className="fixed z-20 w-full flex-row bg-gradient-to-t from-transparent to-neutral-700 py-4 px-2 sm:px-0 2xl:py-4"
+				className="fixed z-50 w-full flex-row bg-gradient-to-t from-transparent to-neutral-700 py-4 px-2 sm:px-0 2xl:py-4"
 			>
 				<div className="mx-auto flex max-w-xs flex-row justify-between sm:max-w-xl md:max-w-2xl lg:w-3/4 lg:max-w-4xl xl:max-w-6xl 2xl:max-w-[1520px]">
 					<div>
