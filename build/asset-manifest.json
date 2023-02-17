@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.00879f4a.css",
-    "main.js": "/static/js/main.abf5fa33.js",
+    "main.css": "/static/css/main.bd0debea.css",
+    "main.js": "/static/js/main.c9c1f6da.js",
     "static/media/tt.png": "/static/media/tt.ae68f3a6ed3e3d1c6e5b.png",
     "static/media/lorem-partners-thumbnail.png": "/static/media/lorem-partners-thumbnail.6d9779b0208759f53781.png",
     "static/media/TamarT.png": "/static/media/TamarT.93f9d408da2e4978bf4c.png",
@@ -12,11 +12,11 @@
     "static/media/t3.png": "/static/media/t3.b70ba549391d08c2ac34.png",
     "static/media/Esotuvaka Logo (4).png": "/static/media/Esotuvaka Logo (4).47f27eb68268b0427676.png",
     "index.html": "/index.html",
-    "main.00879f4a.css.map": "/static/css/main.00879f4a.css.map",
-    "main.abf5fa33.js.map": "/static/js/main.abf5fa33.js.map"
+    "main.bd0debea.css.map": "/static/css/main.bd0debea.css.map",
+    "main.c9c1f6da.js.map": "/static/js/main.c9c1f6da.js.map"
   },
   "entrypoints": [
-    "static/css/main.00879f4a.css",
-    "static/js/main.abf5fa33.js"
+    "static/css/main.bd0debea.css",
+    "static/js/main.c9c1f6da.js"
   ]
 }
